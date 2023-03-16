@@ -1,0 +1,3012 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>34</id>
+      <name>stream_hdvb_aroundlegs_v</name>
+      <size>216</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2021-02-10 12:27:20.385080+00:00</created>
+      <updated>2021-08-16 13:44:24.381208+00:00</updated>
+      <start_frame>0</start_frame>
+      <stop_frame>215</stop_frame>
+      <frame_filter></frame_filter>
+      <labels>
+        <label>
+          <name>Orientation</name>
+          <color>#e32019</color>
+          <attributes>
+            <attribute>
+              <name>Pose</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>hdvb</default_value>
+              <values>hdvb
+huvb
+hdvf
+huvf</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>head</name>
+          <color>#37c45d</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>arm</name>
+          <color>#97e2ea</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>location</name>
+          <color>#3a16e6</color>
+          <attributes>
+            <attribute>
+              <name>View_fetus</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>abdomen</default_value>
+              <values>abdomen
+head
+legs
+arms</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>Probe</name>
+          <color>#fafa37</color>
+          <attributes>
+            <attribute>
+              <name>orientation</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>v</default_value>
+              <values>v
+h</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>diagnostic_plane</name>
+          <color>#01ff20</color>
+          <attributes>
+            <attribute>
+              <name>plane</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>Head_plane</default_value>
+              <values>Head_plane
+Abd_plane
+Femur_plane</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>abdomen</name>
+          <color>#9e2594</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>legs</name>
+          <color>#178dfa</color>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+      <segments>
+        <segment>
+          <id>18</id>
+          <start>0</start>
+          <stop>215</stop>
+          <url>httplocalhost:8080/?id=18</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>TEMP</username>
+        <email>TEMP</email>
+      </owner>
+      <assignee></assignee>
+    </task>
+    <dumped>2021-08-16 13:44:30.942962+00:00</dumped>
+  </meta>
+  <image id="110" name="frame_000110.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="207.02" ytl="118.10" xbr="367.96" ybr="165.85" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="50.24" ytl="155.42" xbr="156.57" ybr="241.92" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="109" name="frame_000109.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="205.51" ytl="117.54" xbr="365.64" ybr="165.28" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="52.67" ytl="155.73" xbr="156.52" ybr="240.56" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="108" name="frame_000108.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="203.99" ytl="116.97" xbr="363.32" ybr="164.72" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="55.09" ytl="156.04" xbr="156.46" ybr="239.19" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="107" name="frame_000107.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="202.48" ytl="116.40" xbr="361.00" ybr="164.15" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="57.51" ytl="156.36" xbr="156.41" ybr="237.82" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="106" name="frame_000106.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="202.62" ytl="117.02" xbr="362.47" ybr="164.76" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="59.93" ytl="156.67" xbr="156.36" ybr="236.45" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="105" name="frame_000105.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="202.76" ytl="117.63" xbr="363.94" ybr="165.38" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="62.36" ytl="156.98" xbr="156.31" ybr="235.09" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="104" name="frame_000104.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="202.91" ytl="118.25" xbr="365.41" ybr="165.99" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="64.78" ytl="157.29" xbr="156.25" ybr="233.72" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="103" name="frame_000103.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="203.05" ytl="118.86" xbr="366.88" ybr="166.61" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="67.20" ytl="157.60" xbr="156.20" ybr="232.35" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="102" name="frame_000102.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="203.19" ytl="119.48" xbr="368.35" ybr="167.22" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="101" name="frame_000101.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="203.33" ytl="120.09" xbr="369.82" ybr="167.84" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="100" name="frame_000100.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="203.47" ytl="120.71" xbr="371.29" ybr="168.45" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="99" name="frame_000099.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="203.62" ytl="121.32" xbr="372.77" ybr="169.07" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="98" name="frame_000098.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="203.76" ytl="121.94" xbr="374.24" ybr="169.68" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="97" name="frame_000097.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="203.90" ytl="122.55" xbr="375.71" ybr="170.30" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="96" name="frame_000096.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="205.65" ytl="122.60" xbr="378.55" ybr="171.96" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="95" name="frame_000095.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="207.41" ytl="122.65" xbr="381.39" ybr="173.62" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="94" name="frame_000094.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="209.16" ytl="122.69" xbr="384.22" ybr="175.28" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="93" name="frame_000093.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="210.91" ytl="122.74" xbr="387.06" ybr="176.94" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="92" name="frame_000092.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="212.67" ytl="122.79" xbr="389.90" ybr="178.60" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="91" name="frame_000091.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="214.42" ytl="122.84" xbr="392.74" ybr="180.26" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="90" name="frame_000090.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="216.17" ytl="122.88" xbr="395.58" ybr="181.92" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="89" name="frame_000089.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="217.93" ytl="122.93" xbr="398.42" ybr="183.58" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="88" name="frame_000088.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="219.68" ytl="122.98" xbr="401.26" ybr="185.24" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="87" name="frame_000087.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="221.43" ytl="123.03" xbr="404.10" ybr="186.90" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="86" name="frame_000086.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="222.57" ytl="123.83" xbr="406.65" ybr="184.77" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="85" name="frame_000085.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="223.71" ytl="124.64" xbr="409.20" ybr="182.64" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="84" name="frame_000084.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="224.84" ytl="125.44" xbr="411.75" ybr="180.51" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="83" name="frame_000083.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="225.98" ytl="126.24" xbr="414.30" ybr="178.38" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="82" name="frame_000082.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="227.11" ytl="127.05" xbr="381.70" ybr="176.25" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="81" name="frame_000081.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="228.25" ytl="127.85" xbr="349.10" ybr="174.12" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="80" name="frame_000080.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="229.38" ytl="128.66" xbr="316.50" ybr="171.99" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="79" name="frame_000079.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="231.78" ytl="128.99" xbr="317.63" ybr="169.39" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="78" name="frame_000078.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="234.18" ytl="129.32" xbr="318.76" ybr="166.78" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="77" name="frame_000077.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="236.58" ytl="129.65" xbr="319.89" ybr="164.18" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="76" name="frame_000076.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="232.08" ytl="130.24" xbr="318.20" ybr="166.55" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="75" name="frame_000075.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="233.74" ytl="129.42" xbr="325.37" ybr="167.80" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="74" name="frame_000074.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="230.66" ytl="128.59" xbr="413.00" ybr="176.65" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="73" name="frame_000073.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="229.95" ytl="127.76" xbr="413.60" ybr="181.70" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="72" name="frame_000072.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="227.12" ytl="127.33" xbr="411.70" ybr="182.80" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="71" name="frame_000071.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="224.28" ytl="126.91" xbr="409.80" ybr="183.90" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="70" name="frame_000070.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="221.44" ytl="126.48" xbr="406.67" ybr="183.23" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="69" name="frame_000069.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="218.61" ytl="126.06" xbr="403.53" ybr="182.57" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="68" name="frame_000068.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="215.77" ytl="125.63" xbr="400.40" ybr="181.90" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="67" name="frame_000067.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="212.94" ytl="125.20" xbr="394.89" ybr="176.50" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="66" name="frame_000066.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="210.10" ytl="124.78" xbr="391.77" ybr="176.50" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="65" name="frame_000065.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="207.26" ytl="124.35" xbr="388.65" ybr="176.51" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="64" name="frame_000064.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="204.43" ytl="123.93" xbr="385.52" ybr="176.51" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="63" name="frame_000063.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="201.59" ytl="123.50" xbr="382.40" ybr="176.52" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="62" name="frame_000062.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="200.60" ytl="122.88" xbr="378.47" ybr="173.31" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="61" name="frame_000061.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="199.60" ytl="122.26" xbr="374.53" ybr="170.10" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="60" name="frame_000060.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="198.61" ytl="121.64" xbr="370.60" ybr="170.43" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="59" name="frame_000059.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="197.62" ytl="121.02" xbr="366.67" ybr="170.75" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="58" name="frame_000058.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="196.62" ytl="120.41" xbr="362.73" ybr="171.08" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="57" name="frame_000057.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="195.63" ytl="119.79" xbr="358.80" ybr="171.41" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="56" name="frame_000056.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="195.27" ytl="119.17" xbr="357.43" ybr="170.79" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="55" name="frame_000055.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="194.90" ytl="118.55" xbr="356.07" ybr="170.18" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="54" name="frame_000054.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="194.54" ytl="117.93" xbr="354.70" ybr="169.56" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="53" name="frame_000053.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="194.18" ytl="117.31" xbr="353.33" ybr="168.95" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="52" name="frame_000052.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="193.81" ytl="116.70" xbr="351.97" ybr="168.33" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="51" name="frame_000051.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="193.45" ytl="116.08" xbr="350.60" ybr="167.72" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="63.40" ytl="150.00" xbr="157.58" ybr="247.54" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="50" name="frame_000050.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="194.35" ytl="115.46" xbr="348.70" ybr="167.58" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="58.28" ytl="151.14" xbr="158.06" ybr="249.53" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="49" name="frame_000049.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="195.25" ytl="114.85" xbr="267.60" ybr="167.44" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="53.16" ytl="152.28" xbr="158.53" ybr="251.52" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="48" name="frame_000048.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="196.15" ytl="114.23" xbr="269.32" ybr="167.30" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="48.04" ytl="153.42" xbr="159.00" ybr="253.51" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="47" name="frame_000047.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="197.05" ytl="113.62" xbr="271.03" ybr="167.16" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="42.92" ytl="154.56" xbr="159.48" ybr="255.49" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="46" name="frame_000046.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="197.95" ytl="113.00" xbr="272.75" ybr="167.02" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="37.80" ytl="155.70" xbr="159.95" ybr="257.48" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="45" name="frame_000045.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="198.85" ytl="112.39" xbr="274.47" ybr="166.88" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="34.50" ytl="154.28" xbr="163.73" ybr="260.32" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="44" name="frame_000044.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="199.75" ytl="111.77" xbr="276.18" ybr="166.74" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="31.20" ytl="152.85" xbr="167.52" ybr="263.16" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="43" name="frame_000043.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="200.64" ytl="111.16" xbr="277.90" ybr="166.60" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="27.91" ytl="151.43" xbr="171.31" ybr="266.00" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="42" name="frame_000042.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="200.17" ytl="112.06" xbr="277.72" ybr="166.84" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="31.22" ytl="151.62" xbr="169.79" ybr="263.58" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="215" name="frame_000215.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="199.64" ytl="119.27" xbr="364.90" ybr="173.10" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="214" name="frame_000214.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="202.07" ytl="120.10" xbr="369.10" ybr="175.18" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="213" name="frame_000213.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="204.49" ytl="120.93" xbr="373.30" ybr="177.25" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="212" name="frame_000212.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="206.92" ytl="121.76" xbr="377.50" ybr="179.33" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="211" name="frame_000211.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="209.34" ytl="122.59" xbr="381.70" ybr="181.40" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="210" name="frame_000210.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="211.77" ytl="123.42" xbr="385.90" ybr="183.48" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="209" name="frame_000209.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="214.19" ytl="124.24" xbr="390.10" ybr="185.55" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="208" name="frame_000208.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="216.62" ytl="125.07" xbr="394.30" ybr="187.63" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="207" name="frame_000207.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="219.04" ytl="125.90" xbr="398.50" ybr="189.70" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="206" name="frame_000206.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="225.57" ytl="127.22" xbr="394.10" ybr="187.67" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="205" name="frame_000205.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="232.10" ytl="128.54" xbr="389.70" ybr="185.64" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="204" name="frame_000204.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="238.63" ytl="129.86" xbr="385.30" ybr="183.61" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="203" name="frame_000203.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="245.17" ytl="131.19" xbr="380.90" ybr="181.58" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="202" name="frame_000202.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="251.70" ytl="132.51" xbr="376.50" ybr="179.55" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="201" name="frame_000201.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="258.23" ytl="133.83" xbr="372.10" ybr="177.52" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="200" name="frame_000200.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="264.76" ytl="135.15" xbr="367.70" ybr="175.49" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="199" name="frame_000199.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="271.29" ytl="136.47" xbr="363.30" ybr="173.46" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="198" name="frame_000198.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="277.82" ytl="137.79" xbr="358.90" ybr="171.43" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="197" name="frame_000197.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="284.35" ytl="139.12" xbr="354.50" ybr="169.40" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="196" name="frame_000196.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="285.20" ytl="138.88" xbr="366.57" ybr="172.95" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="195" name="frame_000195.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="286.05" ytl="138.64" xbr="378.64" ybr="176.50" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="194" name="frame_000194.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="286.91" ytl="138.41" xbr="390.71" ybr="180.05" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="193" name="frame_000193.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="287.76" ytl="138.17" xbr="402.78" ybr="183.60" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="192" name="frame_000192.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="288.61" ytl="137.93" xbr="414.85" ybr="187.15" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="191" name="frame_000191.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="289.46" ytl="137.70" xbr="426.92" ybr="190.70" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="190" name="frame_000190.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="290.31" ytl="137.46" xbr="438.99" ybr="194.25" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="189" name="frame_000189.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="291.16" ytl="137.22" xbr="451.06" ybr="197.80" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="188" name="frame_000188.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="292.02" ytl="136.99" xbr="463.13" ybr="201.35" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="187" name="frame_000187.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="292.87" ytl="136.75" xbr="475.20" ybr="204.90" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="186" name="frame_000186.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="293.86" ytl="135.71" xbr="473.54" ybr="202.16" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="185" name="frame_000185.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="294.86" ytl="134.67" xbr="471.88" ybr="199.42" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="184" name="frame_000184.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="295.85" ytl="133.63" xbr="470.22" ybr="196.68" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="183" name="frame_000183.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="296.84" ytl="132.58" xbr="468.56" ybr="193.94" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="182" name="frame_000182.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="297.84" ytl="131.54" xbr="466.90" ybr="191.20" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="181" name="frame_000181.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="298.83" ytl="130.50" xbr="465.24" ybr="188.46" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="180" name="frame_000180.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="299.83" ytl="129.46" xbr="463.58" ybr="185.72" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="179" name="frame_000179.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="300.82" ytl="128.42" xbr="461.92" ybr="182.98" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="157.00" ytl="166.00" xbr="236.47" ybr="221.82" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="178" name="frame_000178.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="301.81" ytl="127.38" xbr="460.26" ybr="180.24" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="157.00" ytl="166.00" xbr="236.47" ybr="221.82" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="177" name="frame_000177.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="302.81" ytl="126.34" xbr="458.60" ybr="177.50" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="157.00" ytl="166.00" xbr="236.47" ybr="221.82" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="176" name="frame_000176.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="302.14" ytl="126.53" xbr="458.88" ybr="178.63" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="157.00" ytl="166.00" xbr="236.47" ybr="221.82" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="175" name="frame_000175.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="301.48" ytl="126.72" xbr="459.16" ybr="179.76" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="180.16" ytl="171.65" xbr="236.47" ybr="221.82" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="174" name="frame_000174.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="300.82" ytl="126.91" xbr="459.44" ybr="180.89" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="179.45" ytl="171.41" xbr="235.76" ybr="221.58" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="173" name="frame_000173.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="300.16" ytl="127.10" xbr="459.72" ybr="182.02" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="178.74" ytl="171.17" xbr="235.05" ybr="221.35" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="172" name="frame_000172.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="299.49" ytl="127.28" xbr="460.00" ybr="183.15" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="178.03" ytl="170.94" xbr="234.34" ybr="221.11" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="171" name="frame_000171.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="298.83" ytl="127.47" xbr="460.28" ybr="184.28" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="177.32" ytl="170.70" xbr="233.63" ybr="220.87" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="170" name="frame_000170.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="298.17" ytl="127.66" xbr="460.56" ybr="185.41" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="169" name="frame_000169.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="297.51" ytl="127.85" xbr="460.84" ybr="186.54" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="168" name="frame_000168.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="296.84" ytl="128.04" xbr="461.12" ybr="187.67" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="167" name="frame_000167.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="296.18" ytl="128.23" xbr="461.40" ybr="188.80" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="166" name="frame_000166.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="296.18" ytl="128.89" xbr="462.91" ybr="190.55" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="165" name="frame_000165.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="296.18" ytl="129.56" xbr="464.42" ybr="192.30" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="164" name="frame_000164.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="296.18" ytl="130.22" xbr="465.93" ybr="194.05" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="163" name="frame_000163.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="296.18" ytl="130.88" xbr="467.44" ybr="195.80" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="162" name="frame_000162.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="296.18" ytl="131.54" xbr="468.95" ybr="197.55" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="161" name="frame_000161.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="296.18" ytl="132.21" xbr="470.46" ybr="199.30" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="160" name="frame_000160.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="296.18" ytl="132.87" xbr="471.97" ybr="201.05" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="159" name="frame_000159.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="296.18" ytl="133.53" xbr="473.48" ybr="202.80" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="158" name="frame_000158.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="296.18" ytl="134.19" xbr="474.99" ybr="204.55" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="157" name="frame_000157.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="296.18" ytl="134.86" xbr="476.50" ybr="206.30" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="156" name="frame_000156.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="295.52" ytl="134.72" xbr="476.50" ybr="205.68" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="155" name="frame_000155.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="294.86" ytl="134.57" xbr="476.50" ybr="205.06" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="154" name="frame_000154.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="294.19" ytl="134.43" xbr="476.50" ybr="204.44" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="153" name="frame_000153.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="293.53" ytl="134.29" xbr="476.50" ybr="203.82" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="152" name="frame_000152.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="292.87" ytl="134.15" xbr="476.50" ybr="203.20" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="151" name="frame_000151.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="292.21" ytl="134.01" xbr="476.50" ybr="202.58" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="150" name="frame_000150.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="291.54" ytl="133.86" xbr="476.50" ybr="201.96" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="149" name="frame_000149.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="290.88" ytl="133.72" xbr="476.50" ybr="201.34" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="148" name="frame_000148.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="290.22" ytl="133.58" xbr="476.50" ybr="200.72" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="147" name="frame_000147.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="289.56" ytl="133.44" xbr="476.50" ybr="200.10" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="146" name="frame_000146.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="286.86" ytl="132.77" xbr="472.90" ybr="198.68" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="145" name="frame_000145.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="284.16" ytl="132.11" xbr="469.30" ybr="197.26" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="144" name="frame_000144.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="281.46" ytl="131.45" xbr="465.70" ybr="195.84" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="143" name="frame_000143.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="278.77" ytl="130.79" xbr="462.10" ybr="194.42" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="142" name="frame_000142.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="276.07" ytl="130.12" xbr="458.50" ybr="193.00" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="141" name="frame_000141.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="273.37" ytl="129.46" xbr="454.90" ybr="191.58" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="140" name="frame_000140.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="270.67" ytl="128.80" xbr="451.30" ybr="190.16" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="139" name="frame_000139.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="267.98" ytl="128.14" xbr="447.70" ybr="188.74" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="138" name="frame_000138.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="265.28" ytl="127.47" xbr="444.10" ybr="187.32" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="137" name="frame_000137.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="262.58" ytl="126.81" xbr="440.50" ybr="185.90" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="136" name="frame_000136.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="259.98" ytl="126.67" xbr="438.04" ybr="185.19" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="135" name="frame_000135.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="257.38" ytl="126.53" xbr="435.58" ybr="184.48" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="134" name="frame_000134.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="254.77" ytl="126.39" xbr="433.12" ybr="183.77" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="133" name="frame_000133.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="252.17" ytl="126.24" xbr="430.66" ybr="183.06" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="132" name="frame_000132.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="249.57" ytl="126.10" xbr="428.20" ybr="182.35" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="131" name="frame_000131.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="246.96" ytl="125.96" xbr="425.74" ybr="181.64" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="130" name="frame_000130.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="244.36" ytl="125.82" xbr="423.28" ybr="180.93" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="129" name="frame_000129.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="241.76" ytl="125.68" xbr="420.82" ybr="180.22" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="128" name="frame_000128.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="239.16" ytl="125.53" xbr="418.36" ybr="179.51" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="127" name="frame_000127.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="236.55" ytl="125.39" xbr="415.90" ybr="178.80" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="126" name="frame_000126.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="234.66" ytl="125.06" xbr="412.73" ybr="177.90" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="125" name="frame_000125.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="232.77" ytl="124.73" xbr="409.56" ybr="177.01" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="124" name="frame_000124.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="230.87" ytl="124.40" xbr="406.39" ybr="176.11" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="123" name="frame_000123.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="228.98" ytl="124.07" xbr="403.22" ybr="175.21" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="122" name="frame_000122.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="227.09" ytl="123.74" xbr="400.05" ybr="174.31" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="121" name="frame_000121.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="225.19" ytl="123.41" xbr="396.88" ybr="173.42" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="120" name="frame_000120.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="223.30" ytl="123.07" xbr="393.71" ybr="172.52" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="119" name="frame_000119.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="221.41" ytl="122.74" xbr="390.54" ybr="171.62" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="118" name="frame_000118.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="219.52" ytl="122.41" xbr="387.37" ybr="170.72" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="117" name="frame_000117.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="217.62" ytl="122.08" xbr="384.20" ybr="169.83" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="116" name="frame_000116.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="216.11" ytl="121.51" xbr="381.88" ybr="169.26" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="82.80" ytl="161.90" xbr="159.99" ybr="242.77" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="115" name="frame_000115.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="214.59" ytl="120.94" xbr="379.56" ybr="168.69" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="73.45" ytl="160.13" xbr="159.16" ybr="243.24" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="114" name="frame_000114.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="213.08" ytl="120.38" xbr="377.24" ybr="168.12" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="64.10" ytl="158.35" xbr="158.33" ybr="243.71" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="113" name="frame_000113.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="211.57" ytl="119.81" xbr="374.92" ybr="167.56" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="54.75" ytl="156.58" xbr="157.50" ybr="244.18" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="112" name="frame_000112.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="210.05" ytl="119.24" xbr="372.60" ybr="166.99" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="45.40" ytl="154.80" xbr="156.67" ybr="244.66" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="111" name="frame_000111.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="208.54" ytl="118.67" xbr="370.28" ybr="166.42" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="47.82" ytl="155.11" xbr="156.62" ybr="243.29" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="41" name="frame_000041.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="199.70" ytl="112.96" xbr="277.53" ybr="167.08" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="34.53" ytl="151.81" xbr="168.28" ybr="261.16" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="40" name="frame_000040.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="199.23" ytl="113.85" xbr="277.35" ybr="167.32" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="37.85" ytl="152.00" xbr="166.76" ybr="258.75" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="39" name="frame_000039.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="198.75" ytl="114.75" xbr="277.17" ybr="167.56" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="41.16" ytl="152.19" xbr="165.25" ybr="256.33" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="38" name="frame_000038.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="198.28" ytl="115.65" xbr="276.98" ybr="167.80" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="44.47" ytl="152.38" xbr="163.73" ybr="253.91" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="37" name="frame_000037.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="197.81" ytl="116.55" xbr="276.80" ybr="168.04" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="47.79" ytl="152.57" xbr="162.22" ybr="251.49" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="36" name="frame_000036.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="197.33" ytl="117.45" xbr="351.10" ybr="168.28" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="51.10" ytl="152.76" xbr="160.71" ybr="249.07" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="35" name="frame_000035.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="196.86" ytl="118.35" xbr="349.70" ybr="168.52" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="54.42" ytl="152.94" xbr="159.19" ybr="246.65" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="34" name="frame_000034.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="196.39" ytl="119.25" xbr="350.70" ybr="168.76" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="57.73" ytl="153.13" xbr="157.68" ybr="244.24" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="33" name="frame_000033.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="195.91" ytl="120.15" xbr="351.70" ybr="169.00" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="61.04" ytl="153.32" xbr="156.16" ybr="241.82" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="32" name="frame_000032.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="197.71" ytl="119.07" xbr="355.45" ybr="170.04" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="31" name="frame_000031.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="199.51" ytl="118.00" xbr="359.20" ybr="171.08" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="30" name="frame_000030.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="201.31" ytl="117.35" xbr="360.55" ybr="172.12" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="29" name="frame_000029.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="203.11" ytl="116.70" xbr="361.90" ybr="173.16" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="28" name="frame_000028.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="204.90" ytl="119.42" xbr="368.85" ybr="174.19" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="27" name="frame_000027.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="206.70" ytl="122.14" xbr="375.80" ybr="175.23" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="26" name="frame_000026.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="208.50" ytl="122.47" xbr="379.58" ybr="176.27" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="25" name="frame_000025.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="210.30" ytl="122.80" xbr="383.36" ybr="177.31" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="24" name="frame_000024.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="212.10" ytl="123.13" xbr="387.15" ybr="178.35" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="23" name="frame_000023.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="213.90" ytl="123.46" xbr="390.93" ybr="179.39" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="22" name="frame_000022.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="216.83" ytl="124.12" xbr="393.86" ybr="180.05" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="21" name="frame_000021.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="219.76" ytl="124.79" xbr="396.80" ybr="180.71" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="20" name="frame_000020.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="222.70" ytl="125.45" xbr="399.73" ybr="181.38" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="19" name="frame_000019.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="225.63" ytl="126.11" xbr="402.67" ybr="182.04" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="18" name="frame_000018.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="228.57" ytl="126.77" xbr="405.60" ybr="182.70" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="17" name="frame_000017.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="230.03" ytl="127.72" xbr="408.12" ybr="180.28" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="16" name="frame_000016.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="231.48" ytl="128.67" xbr="410.64" ybr="177.85" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="15" name="frame_000015.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="232.94" ytl="129.61" xbr="413.16" ybr="175.43" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="14" name="frame_000014.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="234.40" ytl="130.56" xbr="415.68" ybr="173.00" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="13" name="frame_000013.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="235.86" ytl="131.51" xbr="418.20" ybr="170.58" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="12" name="frame_000012.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="237.32" ytl="132.45" xbr="323.10" ybr="168.15" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="11" name="frame_000011.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="238.15" ytl="133.40" xbr="314.40" ybr="165.73" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="10" name="frame_000010.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="238.98" ytl="134.35" xbr="305.70" ybr="163.30" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="9" name="frame_000009.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="239.08" ytl="133.87" xbr="309.89" ybr="165.05" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="8" name="frame_000008.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="239.17" ytl="133.40" xbr="314.09" ybr="166.80" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="7" name="frame_000007.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="233.59" ytl="132.22" xbr="417.00" ybr="169.97" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="6" name="frame_000006.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="231.80" ytl="131.51" xbr="416.20" ybr="172.20" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="5" name="frame_000005.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="230.00" ytl="130.80" xbr="414.30" ybr="174.42" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="4" name="frame_000004.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="226.12" ytl="130.09" xbr="412.36" ybr="176.65" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="3" name="frame_000003.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="222.23" ytl="129.38" xbr="410.42" ybr="178.87" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="2" name="frame_000002.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="218.35" ytl="128.67" xbr="408.49" ybr="181.10" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="1" name="frame_000001.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="214.47" ytl="127.96" xbr="406.55" ybr="183.32" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+  </image>
+  <image id="0" name="frame_000000.png" width="672" height="389">
+    <box label="legs" occluded="0" source="manual" xtl="210.58" ytl="127.25" xbr="404.61" ybr="185.55" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">legs</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+</annotations>

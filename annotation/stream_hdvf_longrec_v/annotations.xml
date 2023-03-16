@@ -1,0 +1,2805 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>46</id>
+      <name>stream_hdvf_longrec_v</name>
+      <size>339</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2021-02-10 13:24:49.216270+00:00</created>
+      <updated>2021-05-12 09:54:48.962835+00:00</updated>
+      <start_frame>0</start_frame>
+      <stop_frame>338</stop_frame>
+      <frame_filter></frame_filter>
+      <labels>
+        <label>
+          <name>Orientation</name>
+          <color>#e32019</color>
+          <attributes>
+            <attribute>
+              <name>Pose</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>hdvb</default_value>
+              <values>hdvb
+huvb
+hdvf
+huvf</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>head</name>
+          <color>#37c45d</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>arm</name>
+          <color>#97e2ea</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>location</name>
+          <color>#3a16e6</color>
+          <attributes>
+            <attribute>
+              <name>View_fetus</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>abdomen</default_value>
+              <values>abdomen
+head
+legs
+arms</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>Probe</name>
+          <color>#fafa37</color>
+          <attributes>
+            <attribute>
+              <name>orientation</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>v</default_value>
+              <values>v
+h</values>
+            </attribute>
+          </attributes>
+        </label>
+      </labels>
+      <segments>
+        <segment>
+          <id>30</id>
+          <start>0</start>
+          <stop>338</stop>
+          <url>httplocalhost:8080/?id=30</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>TEMP</username>
+        <email>TEMP</email>
+      </owner>
+      <assignee></assignee>
+    </task>
+    <dumped>2021-05-12 09:54:55.512211+00:00</dumped>
+  </meta>
+  <image id="338" name="frame_000338.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="337" name="frame_000337.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="336" name="frame_000336.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="335" name="frame_000335.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="334" name="frame_000334.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="333" name="frame_000333.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="332" name="frame_000332.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="331" name="frame_000331.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="330" name="frame_000330.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="329" name="frame_000329.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="302" name="frame_000302.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="301" name="frame_000301.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="300" name="frame_000300.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="299" name="frame_000299.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="298" name="frame_000298.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="297" name="frame_000297.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="296" name="frame_000296.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="295" name="frame_000295.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="294" name="frame_000294.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="293" name="frame_000293.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="292" name="frame_000292.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="291" name="frame_000291.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="290" name="frame_000290.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="289" name="frame_000289.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="288" name="frame_000288.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="287" name="frame_000287.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="286" name="frame_000286.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="285" name="frame_000285.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="284" name="frame_000284.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="283" name="frame_000283.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="282" name="frame_000282.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="281" name="frame_000281.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="280" name="frame_000280.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="279" name="frame_000279.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="278" name="frame_000278.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="277" name="frame_000277.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="276" name="frame_000276.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="275" name="frame_000275.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="274" name="frame_000274.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="273" name="frame_000273.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="272" name="frame_000272.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="271" name="frame_000271.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="270" name="frame_000270.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="269" name="frame_000269.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="268" name="frame_000268.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="267" name="frame_000267.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="266" name="frame_000266.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="265" name="frame_000265.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="264" name="frame_000264.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="263" name="frame_000263.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="262" name="frame_000262.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="261" name="frame_000261.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="260" name="frame_000260.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="259" name="frame_000259.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="258" name="frame_000258.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="257" name="frame_000257.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="256" name="frame_000256.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="255" name="frame_000255.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="254" name="frame_000254.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="253" name="frame_000253.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="252" name="frame_000252.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="251" name="frame_000251.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="250" name="frame_000250.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="249" name="frame_000249.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="248" name="frame_000248.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="247" name="frame_000247.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="246" name="frame_000246.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="245" name="frame_000245.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="244" name="frame_000244.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="243" name="frame_000243.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="242" name="frame_000242.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="241" name="frame_000241.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="240" name="frame_000240.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="239" name="frame_000239.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="238" name="frame_000238.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="237" name="frame_000237.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="236" name="frame_000236.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="235" name="frame_000235.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="234" name="frame_000234.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="233" name="frame_000233.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="232" name="frame_000232.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="231" name="frame_000231.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="230" name="frame_000230.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="229" name="frame_000229.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="228" name="frame_000228.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="227" name="frame_000227.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="226" name="frame_000226.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="225" name="frame_000225.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="224" name="frame_000224.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="223" name="frame_000223.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="222" name="frame_000222.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="221" name="frame_000221.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="220" name="frame_000220.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="219" name="frame_000219.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="218" name="frame_000218.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="217" name="frame_000217.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="216" name="frame_000216.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="215" name="frame_000215.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="214" name="frame_000214.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="213" name="frame_000213.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="212" name="frame_000212.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="211" name="frame_000211.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="210" name="frame_000210.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="209" name="frame_000209.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="208" name="frame_000208.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="207" name="frame_000207.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="206" name="frame_000206.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="205" name="frame_000205.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="204" name="frame_000204.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="203" name="frame_000203.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="202" name="frame_000202.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="201" name="frame_000201.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="200" name="frame_000200.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="199" name="frame_000199.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="198" name="frame_000198.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="197" name="frame_000197.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="196" name="frame_000196.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="195" name="frame_000195.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="194" name="frame_000194.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="193" name="frame_000193.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="192" name="frame_000192.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="191" name="frame_000191.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="190" name="frame_000190.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="189" name="frame_000189.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="188" name="frame_000188.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="187" name="frame_000187.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="186" name="frame_000186.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="185" name="frame_000185.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="184" name="frame_000184.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="183" name="frame_000183.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="182" name="frame_000182.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="181" name="frame_000181.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="180" name="frame_000180.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="179" name="frame_000179.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="178" name="frame_000178.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="177" name="frame_000177.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="176" name="frame_000176.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="175" name="frame_000175.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="174" name="frame_000174.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="173" name="frame_000173.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="172" name="frame_000172.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="171" name="frame_000171.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="170" name="frame_000170.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="169" name="frame_000169.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="168" name="frame_000168.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="167" name="frame_000167.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="166" name="frame_000166.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="165" name="frame_000165.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="164" name="frame_000164.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="163" name="frame_000163.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="162" name="frame_000162.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="161" name="frame_000161.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="160" name="frame_000160.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="159" name="frame_000159.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="158" name="frame_000158.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="157" name="frame_000157.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="156" name="frame_000156.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="155" name="frame_000155.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="154" name="frame_000154.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="153" name="frame_000153.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="152" name="frame_000152.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="151" name="frame_000151.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="150" name="frame_000150.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="149" name="frame_000149.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="148" name="frame_000148.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="147" name="frame_000147.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="146" name="frame_000146.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="145" name="frame_000145.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="144" name="frame_000144.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="143" name="frame_000143.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="142" name="frame_000142.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="141" name="frame_000141.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="140" name="frame_000140.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="139" name="frame_000139.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="138" name="frame_000138.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="137" name="frame_000137.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="136" name="frame_000136.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="135" name="frame_000135.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="134" name="frame_000134.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="133" name="frame_000133.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="132" name="frame_000132.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="131" name="frame_000131.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="130" name="frame_000130.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="129" name="frame_000129.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="128" name="frame_000128.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="127" name="frame_000127.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="126" name="frame_000126.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="125" name="frame_000125.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="124" name="frame_000124.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="123" name="frame_000123.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="122" name="frame_000122.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="121" name="frame_000121.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="120" name="frame_000120.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="119" name="frame_000119.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="118" name="frame_000118.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="117" name="frame_000117.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="116" name="frame_000116.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="115" name="frame_000115.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="114" name="frame_000114.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="113" name="frame_000113.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="112" name="frame_000112.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="111" name="frame_000111.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="110" name="frame_000110.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="109" name="frame_000109.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="108" name="frame_000108.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="107" name="frame_000107.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="106" name="frame_000106.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="105" name="frame_000105.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="104" name="frame_000104.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="103" name="frame_000103.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="102" name="frame_000102.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="101" name="frame_000101.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="100" name="frame_000100.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="99" name="frame_000099.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="98" name="frame_000098.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="97" name="frame_000097.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="96" name="frame_000096.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="95" name="frame_000095.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="94" name="frame_000094.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="93" name="frame_000093.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="92" name="frame_000092.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="91" name="frame_000091.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="90" name="frame_000090.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="89" name="frame_000089.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="88" name="frame_000088.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="87" name="frame_000087.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="86" name="frame_000086.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="85" name="frame_000085.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="84" name="frame_000084.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="83" name="frame_000083.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="82" name="frame_000082.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="81" name="frame_000081.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="80" name="frame_000080.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="79" name="frame_000079.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="78" name="frame_000078.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="77" name="frame_000077.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="76" name="frame_000076.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="75" name="frame_000075.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="74" name="frame_000074.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="73" name="frame_000073.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="72" name="frame_000072.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="71" name="frame_000071.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="70" name="frame_000070.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="69" name="frame_000069.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="68" name="frame_000068.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="67" name="frame_000067.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="66" name="frame_000066.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="65" name="frame_000065.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="64" name="frame_000064.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="63" name="frame_000063.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="62" name="frame_000062.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="61" name="frame_000061.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="60" name="frame_000060.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="59" name="frame_000059.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="58" name="frame_000058.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="57" name="frame_000057.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="56" name="frame_000056.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="55" name="frame_000055.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="54" name="frame_000054.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="53" name="frame_000053.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="52" name="frame_000052.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="51" name="frame_000051.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="50" name="frame_000050.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="49" name="frame_000049.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="48" name="frame_000048.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="47" name="frame_000047.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="46" name="frame_000046.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="45" name="frame_000045.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="44" name="frame_000044.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="43" name="frame_000043.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="42" name="frame_000042.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="328" name="frame_000328.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="327" name="frame_000327.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="326" name="frame_000326.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="325" name="frame_000325.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="324" name="frame_000324.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="323" name="frame_000323.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="322" name="frame_000322.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="321" name="frame_000321.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="320" name="frame_000320.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="319" name="frame_000319.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="318" name="frame_000318.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="317" name="frame_000317.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="316" name="frame_000316.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="315" name="frame_000315.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="314" name="frame_000314.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="313" name="frame_000313.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="312" name="frame_000312.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="311" name="frame_000311.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="310" name="frame_000310.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="309" name="frame_000309.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="308" name="frame_000308.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="307" name="frame_000307.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="306" name="frame_000306.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="305" name="frame_000305.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="304" name="frame_000304.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="303" name="frame_000303.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="41" name="frame_000041.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="40" name="frame_000040.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="39" name="frame_000039.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="38" name="frame_000038.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="37" name="frame_000037.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="36" name="frame_000036.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="35" name="frame_000035.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="34" name="frame_000034.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="33" name="frame_000033.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="32" name="frame_000032.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="31" name="frame_000031.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="30" name="frame_000030.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="29" name="frame_000029.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="28" name="frame_000028.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="27" name="frame_000027.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="26" name="frame_000026.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="25" name="frame_000025.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="24" name="frame_000024.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="23" name="frame_000023.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="22" name="frame_000022.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="21" name="frame_000021.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="20" name="frame_000020.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="19" name="frame_000019.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="18" name="frame_000018.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="17" name="frame_000017.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="16" name="frame_000016.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="15" name="frame_000015.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="14" name="frame_000014.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="13" name="frame_000013.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="12" name="frame_000012.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="11" name="frame_000011.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="10" name="frame_000010.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="9" name="frame_000009.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="8" name="frame_000008.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="7" name="frame_000007.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="6" name="frame_000006.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="5" name="frame_000005.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="4" name="frame_000004.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="3" name="frame_000003.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="2" name="frame_000002.png" width="672" height="389">
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="1" name="frame_000001.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+  <image id="0" name="frame_000000.png" width="672" height="389">
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvf</attribute>
+    </tag>
+  </image>
+</annotations>

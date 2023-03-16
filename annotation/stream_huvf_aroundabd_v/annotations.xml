@@ -1,0 +1,4453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>57</id>
+      <name>stream_huvf_aroundabd_v</name>
+      <size>319</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2021-02-10 13:55:30.278446+00:00</created>
+      <updated>2021-07-07 10:17:08.402524+00:00</updated>
+      <start_frame>0</start_frame>
+      <stop_frame>318</stop_frame>
+      <frame_filter></frame_filter>
+      <labels>
+        <label>
+          <name>Orientation</name>
+          <color>#e32019</color>
+          <attributes>
+            <attribute>
+              <name>Pose</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>hdvb</default_value>
+              <values>hdvb
+huvb
+hdvf
+huvf</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>head</name>
+          <color>#37c45d</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>arm</name>
+          <color>#97e2ea</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>location</name>
+          <color>#3a16e6</color>
+          <attributes>
+            <attribute>
+              <name>View_fetus</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>abdomen</default_value>
+              <values>abdomen
+head
+legs
+arms</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>Probe</name>
+          <color>#fafa37</color>
+          <attributes>
+            <attribute>
+              <name>orientation</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>v</default_value>
+              <values>v
+h</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>diagnostic_plane</name>
+          <color>#01ff20</color>
+          <attributes>
+            <attribute>
+              <name>plane</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>Head_plane</default_value>
+              <values>Head_plane
+Abd_plane
+Femur_plane</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>abdomen</name>
+          <color>#9e2594</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>legs</name>
+          <color>#178dfa</color>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+      <segments>
+        <segment>
+          <id>41</id>
+          <start>0</start>
+          <stop>318</stop>
+          <url>httplocalhost:8080/?id=41</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>TEMP</username>
+        <email>TEMP</email>
+      </owner>
+      <assignee></assignee>
+    </task>
+    <dumped>2021-07-07 10:17:21.711989+00:00</dumped>
+  </meta>
+  <image id="318" name="frame_000318.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="180.60" ytl="137.10" xbr="535.50" ybr="277.80" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="317" name="frame_000317.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="180.60" ytl="139.00" xbr="535.50" ybr="277.80" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="316" name="frame_000316.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="187.91" ytl="139.00" xbr="535.50" ybr="277.80" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="315" name="frame_000315.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="195.22" ytl="139.00" xbr="535.50" ybr="277.80" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="314" name="frame_000314.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="202.53" ytl="139.00" xbr="535.50" ybr="277.80" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="313" name="frame_000313.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="209.84" ytl="139.00" xbr="535.50" ybr="277.80" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="312" name="frame_000312.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="217.15" ytl="139.00" xbr="535.50" ybr="277.80" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="311" name="frame_000311.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="224.45" ytl="139.00" xbr="535.50" ybr="277.80" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="310" name="frame_000310.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="231.76" ytl="139.00" xbr="535.50" ybr="277.80" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="309" name="frame_000309.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="239.07" ytl="139.00" xbr="535.50" ybr="277.80" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="308" name="frame_000308.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="246.38" ytl="139.00" xbr="535.50" ybr="277.80" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="307" name="frame_000307.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="253.69" ytl="139.00" xbr="535.50" ybr="277.80" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="306" name="frame_000306.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="261.00" ytl="139.00" xbr="535.50" ybr="277.80" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="305" name="frame_000305.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="269.30" ytl="139.00" xbr="535.50" ybr="277.80" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="304" name="frame_000304.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="270.58" ytl="139.00" xbr="535.50" ybr="277.80" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="303" name="frame_000303.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="271.85" ytl="139.00" xbr="535.50" ybr="277.80" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="302" name="frame_000302.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="273.13" ytl="139.00" xbr="535.50" ybr="277.80" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="301" name="frame_000301.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="274.40" ytl="139.00" xbr="535.50" ybr="277.80" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="300" name="frame_000300.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="275.68" ytl="139.00" xbr="535.50" ybr="277.80" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="299" name="frame_000299.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="276.95" ytl="139.00" xbr="535.50" ybr="277.80" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="298" name="frame_000298.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="278.23" ytl="139.00" xbr="535.50" ybr="277.80" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="297" name="frame_000297.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="279.50" ytl="139.00" xbr="535.50" ybr="277.80" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="296" name="frame_000296.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="274.13" ytl="139.00" xbr="535.50" ybr="277.80" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="295" name="frame_000295.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="268.77" ytl="139.00" xbr="535.50" ybr="277.80" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="294" name="frame_000294.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="263.40" ytl="139.00" xbr="535.50" ybr="277.80" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="293" name="frame_000293.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="237.52" ytl="139.00" xbr="535.50" ybr="277.80" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="292" name="frame_000292.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="211.65" ytl="139.00" xbr="535.50" ybr="277.80" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="291" name="frame_000291.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="185.77" ytl="139.00" xbr="535.50" ybr="277.80" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="290" name="frame_000290.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="185.77" ytl="138.05" xbr="536.16" ybr="277.80" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="289" name="frame_000289.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="185.77" ytl="137.10" xbr="536.83" ybr="277.80" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="288" name="frame_000288.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="185.77" ytl="136.15" xbr="537.49" ybr="277.80" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="287" name="frame_000287.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="185.77" ytl="135.20" xbr="538.15" ybr="277.80" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="286" name="frame_000286.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="185.77" ytl="134.25" xbr="538.82" ybr="277.80" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="285" name="frame_000285.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="185.77" ytl="133.30" xbr="539.48" ybr="277.80" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="284" name="frame_000284.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="185.77" ytl="132.35" xbr="540.14" ybr="277.80" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="283" name="frame_000283.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="185.77" ytl="131.40" xbr="540.80" ybr="277.80" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="282" name="frame_000282.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="185.77" ytl="130.45" xbr="541.47" ybr="277.80" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="281" name="frame_000281.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="185.77" ytl="129.50" xbr="542.13" ybr="277.80" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="280" name="frame_000280.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="185.77" ytl="128.93" xbr="542.13" ybr="277.80" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="279" name="frame_000279.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="185.77" ytl="128.36" xbr="542.13" ybr="277.80" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="278" name="frame_000278.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="185.77" ytl="127.79" xbr="542.13" ybr="277.80" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="277" name="frame_000277.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="185.77" ytl="127.22" xbr="542.13" ybr="277.80" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="276" name="frame_000276.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="185.77" ytl="126.65" xbr="542.13" ybr="277.80" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="275" name="frame_000275.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="185.77" ytl="126.08" xbr="542.13" ybr="277.80" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="274" name="frame_000274.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="185.77" ytl="125.51" xbr="542.13" ybr="277.80" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="273" name="frame_000273.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="185.77" ytl="124.94" xbr="542.13" ybr="277.80" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="272" name="frame_000272.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="185.77" ytl="124.37" xbr="542.13" ybr="277.80" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="271" name="frame_000271.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="185.77" ytl="123.80" xbr="542.13" ybr="277.80" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="270" name="frame_000270.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="184.58" ytl="123.09" xbr="540.95" ybr="277.14" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="269" name="frame_000269.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="183.40" ytl="122.38" xbr="539.76" ybr="276.48" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="268" name="frame_000268.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="182.22" ytl="121.67" xbr="538.58" ybr="275.82" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="267" name="frame_000267.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="181.04" ytl="120.96" xbr="537.40" ybr="275.16" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="266" name="frame_000266.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="179.85" ytl="120.25" xbr="536.22" ybr="274.50" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="265" name="frame_000265.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="178.67" ytl="119.54" xbr="535.03" ybr="273.84" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="264" name="frame_000264.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="177.49" ytl="118.83" xbr="533.85" ybr="273.18" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="263" name="frame_000263.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="176.30" ytl="118.12" xbr="532.67" ybr="272.52" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="262" name="frame_000262.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="175.12" ytl="117.41" xbr="531.48" ybr="271.86" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="261" name="frame_000261.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="173.94" ytl="116.70" xbr="530.30" ybr="271.20" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="260" name="frame_000260.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="173.94" ytl="116.70" xbr="529.50" ybr="270.88" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="259" name="frame_000259.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="173.94" ytl="116.70" xbr="528.71" ybr="270.56" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="258" name="frame_000258.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="173.94" ytl="116.70" xbr="527.91" ybr="270.24" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="257" name="frame_000257.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="173.94" ytl="116.70" xbr="527.12" ybr="269.92" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="256" name="frame_000256.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="173.94" ytl="116.70" xbr="526.32" ybr="269.60" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="255" name="frame_000255.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="173.94" ytl="116.70" xbr="525.52" ybr="269.28" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="254" name="frame_000254.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="173.94" ytl="116.70" xbr="524.73" ybr="268.96" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="253" name="frame_000253.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="173.94" ytl="116.70" xbr="523.93" ybr="268.64" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="252" name="frame_000252.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="173.94" ytl="116.70" xbr="523.14" ybr="268.32" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="251" name="frame_000251.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="173.94" ytl="116.70" xbr="522.34" ybr="268.00" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="250" name="frame_000250.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="173.94" ytl="116.70" xbr="521.54" ybr="267.68" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="249" name="frame_000249.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="173.94" ytl="116.70" xbr="520.75" ybr="267.36" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="248" name="frame_000248.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="173.94" ytl="116.70" xbr="519.95" ybr="267.04" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="247" name="frame_000247.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="173.94" ytl="116.70" xbr="519.16" ybr="266.72" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="246" name="frame_000246.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="173.94" ytl="116.70" xbr="518.36" ybr="266.40" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="245" name="frame_000245.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="173.94" ytl="116.70" xbr="517.56" ybr="266.08" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="244" name="frame_000244.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="173.94" ytl="116.70" xbr="516.77" ybr="265.76" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="243" name="frame_000243.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="173.94" ytl="116.70" xbr="515.97" ybr="265.44" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="242" name="frame_000242.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="173.94" ytl="116.70" xbr="515.18" ybr="265.12" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="241" name="frame_000241.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="173.94" ytl="116.70" xbr="514.38" ybr="264.80" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="240" name="frame_000240.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="173.94" ytl="116.70" xbr="513.58" ybr="264.48" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="239" name="frame_000239.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="173.94" ytl="116.70" xbr="512.79" ybr="264.16" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="238" name="frame_000238.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="173.94" ytl="116.70" xbr="511.99" ybr="263.84" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="237" name="frame_000237.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="173.94" ytl="116.70" xbr="511.20" ybr="263.52" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="236" name="frame_000236.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="173.94" ytl="116.70" xbr="510.40" ybr="263.20" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="235" name="frame_000235.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="172.60" ytl="118.19" xbr="508.93" ybr="261.60" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="234" name="frame_000234.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="171.26" ytl="119.68" xbr="507.47" ybr="260.00" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="233" name="frame_000233.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="169.92" ytl="121.17" xbr="506.00" ybr="258.40" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="232" name="frame_000232.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="168.58" ytl="122.66" xbr="504.53" ybr="256.80" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="231" name="frame_000231.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="167.24" ytl="124.15" xbr="503.07" ybr="255.20" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="230" name="frame_000230.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="165.90" ytl="125.64" xbr="501.60" ybr="253.60" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="229" name="frame_000229.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="167.05" ytl="127.13" xbr="489.60" ybr="252.00" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="228" name="frame_000228.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="168.20" ytl="128.62" xbr="477.60" ybr="250.40" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="227" name="frame_000227.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="169.34" ytl="130.11" xbr="465.60" ybr="248.80" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="226" name="frame_000226.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="170.49" ytl="131.60" xbr="453.60" ybr="247.20" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="218.70" ytl="61.95" xbr="282.03" ybr="117.40" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="225" name="frame_000225.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="171.64" ytl="133.09" xbr="441.60" ybr="245.60" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="218.70" ytl="61.95" xbr="282.03" ybr="117.40" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="224" name="frame_000224.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="172.79" ytl="134.58" xbr="429.60" ybr="244.00" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="211.46" ytl="61.95" xbr="282.03" ybr="123.41" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="223" name="frame_000223.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="173.94" ytl="136.07" xbr="417.60" ybr="242.40" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="204.22" ytl="61.95" xbr="282.03" ybr="129.42" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="222" name="frame_000222.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="173.03" ytl="137.69" xbr="415.98" ybr="242.06" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="196.98" ytl="61.95" xbr="282.03" ybr="135.43" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="221" name="frame_000221.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="172.13" ytl="139.32" xbr="414.36" ybr="241.71" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="189.75" ytl="61.95" xbr="282.03" ybr="141.44" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="220" name="frame_000220.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="171.22" ytl="140.95" xbr="412.73" ybr="241.37" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="182.51" ytl="61.95" xbr="282.03" ybr="147.45" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="219" name="frame_000219.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="170.32" ytl="142.57" xbr="411.11" ybr="241.03" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="175.27" ytl="61.95" xbr="282.03" ybr="153.46" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="218" name="frame_000218.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="169.42" ytl="144.20" xbr="409.49" ybr="240.69" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="168.03" ytl="61.95" xbr="282.03" ybr="159.47" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="217" name="frame_000217.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="168.51" ytl="145.82" xbr="407.87" ybr="240.34" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="168.13" ytl="62.14" xbr="282.13" ybr="159.66" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="216" name="frame_000216.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="167.61" ytl="147.45" xbr="406.24" ybr="240.00" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="168.22" ytl="62.33" xbr="282.22" ybr="159.85" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="215" name="frame_000215.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="166.70" ytl="149.07" xbr="404.62" ybr="239.66" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="168.32" ytl="62.52" xbr="282.32" ybr="160.04" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="214" name="frame_000214.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="165.80" ytl="150.70" xbr="403.00" ybr="239.32" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="168.41" ytl="62.71" xbr="282.41" ybr="160.23" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="213" name="frame_000213.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="170.04" ytl="140.47" xbr="409.90" ybr="238.97" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="168.50" ytl="62.90" xbr="282.50" ybr="160.42" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="212" name="frame_000212.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="174.28" ytl="130.25" xbr="416.80" ybr="238.63" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="168.88" ytl="62.90" xbr="282.88" ybr="160.42" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="211" name="frame_000211.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="174.31" ytl="128.82" xbr="435.08" ybr="238.29" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="169.26" ytl="62.90" xbr="283.26" ybr="160.42" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="210" name="frame_000210.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="174.34" ytl="127.39" xbr="453.36" ybr="237.94" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="169.64" ytl="62.90" xbr="283.64" ybr="160.42" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="209" name="frame_000209.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="174.37" ytl="125.96" xbr="471.64" ybr="237.60" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="170.02" ytl="62.90" xbr="284.02" ybr="160.42" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="208" name="frame_000208.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="174.40" ytl="124.53" xbr="489.92" ybr="237.26" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="170.40" ytl="62.90" xbr="284.40" ybr="160.42" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="207" name="frame_000207.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="174.43" ytl="123.10" xbr="508.20" ybr="236.92" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="168.03" ytl="65.12" xbr="282.03" ybr="159.95" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="206" name="frame_000206.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="177.57" ytl="122.55" xbr="508.45" ybr="238.60" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="165.67" ytl="67.34" xbr="279.67" ybr="159.47" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="205" name="frame_000205.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="180.70" ytl="122.00" xbr="508.70" ybr="240.29" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="163.30" ytl="69.56" xbr="277.30" ybr="159.00" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="204" name="frame_000204.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="179.16" ytl="121.76" xbr="508.95" ybr="241.98" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="191.20" ytl="69.56" xbr="277.30" ybr="119.70" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="203" name="frame_000203.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="177.63" ytl="121.52" xbr="509.20" ybr="243.67" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="191.20" ytl="69.56" xbr="276.36" ybr="119.70" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="202" name="frame_000202.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="176.09" ytl="121.29" xbr="509.45" ybr="245.36" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="201" name="frame_000201.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="174.55" ytl="121.05" xbr="509.70" ybr="247.05" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="200" name="frame_000200.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="173.01" ytl="120.81" xbr="509.95" ybr="248.73" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="199" name="frame_000199.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="171.48" ytl="120.57" xbr="510.20" ybr="250.42" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="198" name="frame_000198.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="169.94" ytl="120.34" xbr="510.45" ybr="252.11" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="197" name="frame_000197.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="168.40" ytl="120.10" xbr="510.70" ybr="253.80" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="196" name="frame_000196.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="168.40" ytl="119.57" xbr="510.43" ybr="254.13" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="195" name="frame_000195.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="168.40" ytl="119.04" xbr="510.16" ybr="254.46" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="194" name="frame_000194.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="168.40" ytl="118.51" xbr="509.90" ybr="254.79" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="193" name="frame_000193.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="168.40" ytl="117.98" xbr="509.63" ybr="255.12" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="192" name="frame_000192.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="168.40" ytl="117.45" xbr="509.36" ybr="255.45" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="191" name="frame_000191.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="168.40" ytl="116.92" xbr="509.09" ybr="255.78" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="190" name="frame_000190.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="168.40" ytl="116.39" xbr="508.83" ybr="256.11" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="189" name="frame_000189.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="168.40" ytl="115.86" xbr="508.56" ybr="256.44" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="188" name="frame_000188.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="168.40" ytl="115.34" xbr="508.29" ybr="256.77" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="187" name="frame_000187.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="168.40" ytl="114.81" xbr="508.02" ybr="257.10" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="186" name="frame_000186.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="168.40" ytl="114.28" xbr="507.76" ybr="257.43" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="185" name="frame_000185.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="168.40" ytl="113.75" xbr="507.49" ybr="257.76" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="184" name="frame_000184.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="168.40" ytl="113.22" xbr="507.22" ybr="258.09" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="183" name="frame_000183.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="168.40" ytl="112.69" xbr="506.95" ybr="258.42" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="182" name="frame_000182.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="168.40" ytl="112.16" xbr="506.68" ybr="258.75" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="181" name="frame_000181.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="168.40" ytl="111.63" xbr="506.42" ybr="259.08" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="180" name="frame_000180.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="168.40" ytl="111.10" xbr="506.15" ybr="259.41" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="179" name="frame_000179.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="168.40" ytl="111.18" xbr="505.88" ybr="259.74" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="178" name="frame_000178.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="168.40" ytl="111.25" xbr="505.61" ybr="260.07" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="177" name="frame_000177.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="168.40" ytl="111.33" xbr="505.35" ybr="260.40" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="176" name="frame_000176.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="168.40" ytl="111.41" xbr="505.08" ybr="260.73" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="175" name="frame_000175.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="168.40" ytl="111.48" xbr="504.81" ybr="261.06" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="174" name="frame_000174.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="168.40" ytl="111.56" xbr="504.54" ybr="261.39" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="173" name="frame_000173.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="168.40" ytl="111.64" xbr="504.27" ybr="261.72" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="172" name="frame_000172.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="168.40" ytl="111.72" xbr="504.01" ybr="262.05" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="171" name="frame_000171.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="168.40" ytl="111.79" xbr="503.74" ybr="262.38" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="170" name="frame_000170.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="168.40" ytl="111.87" xbr="503.47" ybr="262.71" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="169" name="frame_000169.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="168.40" ytl="111.95" xbr="503.20" ybr="263.04" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="168" name="frame_000168.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="168.40" ytl="112.02" xbr="502.94" ybr="263.37" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="167" name="frame_000167.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="168.40" ytl="112.10" xbr="502.67" ybr="263.70" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="166" name="frame_000166.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="168.55" ytl="112.50" xbr="503.07" ybr="263.15" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="165" name="frame_000165.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="168.70" ytl="112.90" xbr="503.46" ybr="262.60" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="164" name="frame_000164.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="168.85" ytl="113.30" xbr="503.86" ybr="262.05" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="163" name="frame_000163.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="169.00" ytl="113.70" xbr="504.26" ybr="261.50" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="162" name="frame_000162.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="241.30" ytl="114.10" xbr="504.66" ybr="260.95" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="163.71" ytl="171.65" xbr="242.75" ybr="237.05" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="161" name="frame_000161.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="227.44" ytl="114.50" xbr="505.06" ybr="260.40" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="165.13" ytl="172.13" xbr="244.17" ybr="237.53" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="160" name="frame_000160.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="237.28" ytl="114.90" xbr="505.45" ybr="259.85" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="167.62" ytl="170.59" xbr="246.65" ybr="235.99" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="159" name="frame_000159.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="247.12" ytl="115.30" xbr="505.85" ybr="259.30" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="170.10" ytl="169.05" xbr="249.14" ybr="234.45" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="158" name="frame_000158.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="256.96" ytl="115.70" xbr="506.25" ybr="258.75" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="172.59" ytl="167.51" xbr="251.62" ybr="232.91" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="157" name="frame_000157.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="266.80" ytl="116.10" xbr="506.65" ybr="258.20" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="175.07" ytl="165.97" xbr="254.11" ybr="231.37" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="156" name="frame_000156.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="268.49" ytl="116.54" xbr="506.65" ybr="258.20" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="175.70" ytl="165.52" xbr="255.04" ybr="231.21" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="155" name="frame_000155.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="270.18" ytl="116.99" xbr="506.65" ybr="258.20" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="176.33" ytl="165.06" xbr="255.97" ybr="231.06" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="154" name="frame_000154.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="271.87" ytl="117.43" xbr="506.65" ybr="258.20" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="176.96" ytl="164.60" xbr="256.90" ybr="230.90" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="153" name="frame_000153.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="273.57" ytl="117.88" xbr="506.65" ybr="258.20" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="176.96" ytl="162.60" xbr="256.90" ybr="230.90" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="152" name="frame_000152.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="275.26" ytl="118.32" xbr="506.65" ybr="258.20" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="176.96" ytl="160.59" xbr="256.90" ybr="230.90" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="151" name="frame_000151.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="276.95" ytl="118.76" xbr="506.65" ybr="258.20" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="176.96" ytl="158.59" xbr="256.90" ybr="230.90" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="150" name="frame_000150.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="278.64" ytl="119.21" xbr="506.65" ybr="258.20" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="176.96" ytl="156.59" xbr="256.90" ybr="230.90" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="149" name="frame_000149.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="280.33" ytl="119.65" xbr="506.65" ybr="258.20" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="177.34" ytl="155.54" xbr="256.81" ybr="229.20" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="148" name="frame_000148.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="282.02" ytl="120.10" xbr="506.65" ybr="258.20" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="177.72" ytl="154.50" xbr="256.72" ybr="227.51" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="147" name="frame_000147.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="283.71" ytl="120.54" xbr="506.65" ybr="258.20" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="178.10" ytl="153.46" xbr="256.63" ybr="225.81" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="146" name="frame_000146.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="284.66" ytl="121.29" xbr="507.59" ybr="257.85" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="178.48" ytl="152.42" xbr="256.54" ybr="224.11" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="145" name="frame_000145.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="285.61" ytl="122.03" xbr="508.54" ybr="257.51" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="178.86" ytl="151.38" xbr="256.45" ybr="222.42" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="144" name="frame_000144.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="286.55" ytl="122.78" xbr="509.48" ybr="257.16" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="180.51" ytl="151.56" xbr="258.11" ybr="222.59" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="143" name="frame_000143.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="287.50" ytl="123.52" xbr="510.43" ybr="256.81" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="182.17" ytl="151.73" xbr="259.76" ybr="222.77" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="142" name="frame_000142.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="288.44" ytl="124.27" xbr="511.37" ybr="256.47" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="183.83" ytl="151.91" xbr="261.42" ybr="222.95" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="141" name="frame_000141.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="289.39" ytl="125.02" xbr="512.32" ybr="256.12" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="185.48" ytl="152.09" xbr="263.07" ybr="223.13" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="140" name="frame_000140.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="290.33" ytl="125.76" xbr="513.26" ybr="255.78" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="187.14" ytl="152.27" xbr="264.73" ybr="223.30" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="139" name="frame_000139.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="291.28" ytl="126.51" xbr="514.21" ybr="255.43" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="188.80" ytl="152.44" xbr="266.39" ybr="223.48" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="138" name="frame_000138.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="292.22" ytl="127.25" xbr="515.15" ybr="255.08" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="190.45" ytl="152.62" xbr="268.04" ybr="223.66" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="137" name="frame_000137.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="293.17" ytl="128.00" xbr="516.10" ybr="254.74" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="192.11" ytl="152.80" xbr="269.70" ybr="223.84" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="136" name="frame_000136.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="288.64" ytl="126.91" xbr="516.05" ybr="255.43" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="192.11" ytl="152.80" xbr="265.93" ybr="223.84" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="135" name="frame_000135.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="284.11" ytl="125.83" xbr="516.00" ybr="256.13" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="192.11" ytl="152.81" xbr="262.17" ybr="223.84" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="134" name="frame_000134.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="279.59" ytl="124.74" xbr="515.95" ybr="256.83" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="188.80" ytl="152.10" xbr="258.85" ybr="223.13" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="133" name="frame_000133.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="275.06" ytl="123.66" xbr="515.90" ybr="257.52" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="185.48" ytl="151.39" xbr="255.54" ybr="222.42" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="132" name="frame_000132.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="270.53" ytl="122.57" xbr="515.85" ybr="258.22" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="185.48" ytl="152.49" xbr="255.54" ybr="223.52" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="131" name="frame_000131.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="266.01" ytl="121.49" xbr="515.80" ybr="258.91" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="185.48" ytl="153.60" xbr="255.54" ybr="224.62" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="130" name="frame_000130.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="261.48" ytl="120.40" xbr="515.75" ybr="259.61" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="185.48" ytl="154.70" xbr="255.54" ybr="225.73" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="129" name="frame_000129.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="256.95" ytl="121.93" xbr="515.70" ybr="260.31" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="183.31" ytl="155.56" xbr="253.37" ybr="227.43" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="128" name="frame_000128.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="252.43" ytl="123.47" xbr="515.65" ybr="261.00" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="181.13" ytl="156.42" xbr="251.19" ybr="229.14" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="127" name="frame_000127.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="247.90" ytl="125.00" xbr="515.60" ybr="261.70" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="178.95" ytl="157.28" xbr="249.01" ybr="230.84" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="126" name="frame_000126.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="245.65" ytl="123.70" xbr="516.64" ybr="261.70" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="176.78" ytl="158.14" xbr="246.83" ybr="232.54" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="125" name="frame_000125.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="243.40" ytl="122.40" xbr="517.68" ybr="261.70" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="174.60" ytl="159.00" xbr="244.66" ybr="234.25" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="124" name="frame_000124.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="229.88" ytl="121.10" xbr="518.72" ybr="261.70" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="123" name="frame_000123.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="216.36" ytl="119.80" xbr="519.76" ybr="261.70" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="122" name="frame_000122.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="202.84" ytl="118.50" xbr="520.80" ybr="261.70" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="121" name="frame_000121.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="189.32" ytl="117.20" xbr="521.84" ybr="261.70" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="120" name="frame_000120.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="175.80" ytl="115.90" xbr="522.88" ybr="261.70" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="119" name="frame_000119.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="176.63" ytl="115.77" xbr="523.92" ybr="261.70" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="118" name="frame_000118.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="177.47" ytl="115.63" xbr="524.96" ybr="261.70" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="117" name="frame_000117.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="178.30" ytl="115.50" xbr="526.00" ybr="261.70" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="116" name="frame_000116.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="178.41" ytl="115.79" xbr="524.83" ybr="261.06" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="115" name="frame_000115.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="178.51" ytl="116.07" xbr="523.66" ybr="260.41" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="114" name="frame_000114.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="178.62" ytl="116.36" xbr="522.49" ybr="259.77" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="113" name="frame_000113.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="178.72" ytl="116.64" xbr="521.31" ybr="259.13" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="112" name="frame_000112.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="178.83" ytl="116.93" xbr="520.14" ybr="258.49" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="111" name="frame_000111.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="178.93" ytl="117.21" xbr="518.97" ybr="257.84" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="110" name="frame_000110.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="179.04" ytl="117.50" xbr="517.80" ybr="257.20" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="109" name="frame_000109.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="179.14" ytl="118.63" xbr="516.63" ybr="256.56" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="108" name="frame_000108.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="179.24" ytl="119.76" xbr="515.46" ybr="255.91" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="107" name="frame_000107.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="179.35" ytl="120.89" xbr="514.29" ybr="255.27" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="106" name="frame_000106.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="179.45" ytl="122.01" xbr="513.11" ybr="254.63" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="105" name="frame_000105.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="179.56" ytl="123.14" xbr="511.94" ybr="253.99" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="104" name="frame_000104.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="179.66" ytl="124.27" xbr="510.77" ybr="253.34" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="103" name="frame_000103.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="179.77" ytl="125.40" xbr="509.60" ybr="252.70" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="102" name="frame_000102.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="179.77" ytl="125.98" xbr="509.60" ybr="252.70" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="101" name="frame_000101.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="179.77" ytl="126.57" xbr="509.60" ybr="252.70" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="100" name="frame_000100.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="179.77" ytl="127.15" xbr="509.60" ybr="252.70" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="99" name="frame_000099.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="179.77" ytl="127.73" xbr="509.60" ybr="252.70" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="98" name="frame_000098.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="179.77" ytl="128.32" xbr="509.60" ybr="252.70" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="97" name="frame_000097.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="179.77" ytl="128.90" xbr="509.60" ybr="252.70" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="96" name="frame_000096.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="179.77" ytl="126.23" xbr="509.60" ybr="252.70" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="95" name="frame_000095.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="179.77" ytl="123.57" xbr="509.60" ybr="252.70" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="94" name="frame_000094.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="179.77" ytl="120.90" xbr="509.60" ybr="252.70" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="93" name="frame_000093.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="176.90" ytl="120.32" xbr="511.63" ybr="254.20" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="92" name="frame_000092.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="174.03" ytl="119.74" xbr="513.65" ybr="255.70" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="91" name="frame_000091.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="171.17" ytl="119.15" xbr="515.68" ybr="257.20" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="90" name="frame_000090.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="168.30" ytl="118.57" xbr="517.70" ybr="258.70" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="89" name="frame_000089.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="174.03" ytl="117.99" xbr="515.62" ybr="260.20" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="88" name="frame_000088.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="179.77" ytl="117.41" xbr="513.55" ybr="261.70" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="87" name="frame_000087.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="181.20" ytl="117.47" xbr="515.23" ybr="262.14" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="86" name="frame_000086.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="182.63" ytl="117.53" xbr="516.91" ybr="262.58" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="85" name="frame_000085.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="184.06" ytl="117.60" xbr="518.59" ybr="263.01" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="84" name="frame_000084.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="185.48" ytl="117.66" xbr="520.27" ybr="263.45" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="83" name="frame_000083.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="186.91" ytl="117.72" xbr="521.96" ybr="263.89" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="82" name="frame_000082.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="188.34" ytl="117.78" xbr="523.64" ybr="264.33" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="81" name="frame_000081.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="189.77" ytl="117.84" xbr="525.32" ybr="264.76" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="80" name="frame_000080.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="191.20" ytl="117.91" xbr="527.00" ybr="265.20" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="79" name="frame_000079.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="189.50" ytl="119.40" xbr="526.32" ybr="264.88" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="78" name="frame_000078.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="187.80" ytl="120.89" xbr="525.63" ybr="264.56" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="77" name="frame_000077.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="186.10" ytl="122.38" xbr="524.95" ybr="264.25" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="76" name="frame_000076.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="184.40" ytl="123.88" xbr="524.27" ybr="263.93" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="75" name="frame_000075.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="217.10" ytl="125.62" xbr="524.90" ybr="264.79" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="191.70" ytl="156.70" xbr="252.30" ybr="221.90" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="74" name="frame_000074.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="249.80" ytl="127.36" xbr="525.54" ybr="265.66" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="191.70" ytl="156.70" xbr="252.30" ybr="221.90" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="73" name="frame_000073.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="257.78" ytl="128.35" xbr="532.38" ybr="268.77" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="191.70" ytl="156.70" xbr="252.30" ybr="221.90" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="72" name="frame_000072.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="265.75" ytl="129.35" xbr="539.22" ybr="271.88" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="181.40" ytl="144.05" xbr="255.85" ybr="221.90" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="71" name="frame_000071.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="273.73" ytl="130.34" xbr="546.06" ybr="274.99" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="171.10" ytl="131.40" xbr="259.40" ybr="221.90" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="70" name="frame_000070.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="281.70" ytl="131.34" xbr="552.90" ybr="278.10" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="160.80" ytl="118.75" xbr="262.95" ybr="221.90" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="69" name="frame_000069.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="268.60" ytl="132.33" xbr="550.41" ybr="270.63" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="150.50" ytl="106.10" xbr="266.50" ybr="221.90" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="68" name="frame_000068.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="286.60" ytl="135.57" xbr="551.15" ybr="273.87" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="150.50" ytl="106.33" xbr="272.05" ybr="221.90" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="67" name="frame_000067.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="304.60" ytl="138.80" xbr="551.90" ybr="277.10" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="150.50" ytl="106.55" xbr="277.60" ybr="221.90" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="66" name="frame_000066.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="283.80" ytl="141.40" xbr="551.61" ybr="277.10" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="150.50" ytl="106.78" xbr="283.15" ybr="221.90" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="65" name="frame_000065.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="287.27" ytl="144.00" xbr="551.33" ybr="277.10" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="150.50" ytl="107.00" xbr="288.70" ybr="221.90" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="64" name="frame_000064.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="290.73" ytl="146.60" xbr="551.04" ybr="277.10" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="150.50" ytl="107.00" xbr="290.58" ybr="220.17" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="63" name="frame_000063.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="294.20" ytl="149.20" xbr="550.76" ybr="277.10" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="150.50" ytl="107.00" xbr="292.46" ybr="218.43" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="62" name="frame_000062.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="297.67" ytl="151.80" xbr="550.47" ybr="277.10" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="150.50" ytl="107.00" xbr="294.34" ybr="216.70" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="61" name="frame_000061.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="301.13" ytl="154.40" xbr="550.19" ybr="277.10" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="150.50" ytl="105.88" xbr="294.34" ybr="216.70" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="60" name="frame_000060.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="304.60" ytl="157.00" xbr="549.90" ybr="277.10" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="150.50" ytl="104.75" xbr="294.34" ybr="216.70" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="59" name="frame_000059.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="302.90" ytl="155.98" xbr="550.10" ybr="277.10" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="150.50" ytl="103.62" xbr="294.34" ybr="216.70" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="58" name="frame_000058.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="301.20" ytl="154.96" xbr="550.30" ybr="277.10" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="150.50" ytl="102.50" xbr="294.34" ybr="216.70" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="57" name="frame_000057.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="299.50" ytl="153.94" xbr="550.50" ybr="277.10" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="150.50" ytl="101.38" xbr="294.34" ybr="216.70" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="56" name="frame_000056.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="297.80" ytl="152.92" xbr="550.70" ybr="277.10" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="150.50" ytl="100.25" xbr="294.34" ybr="216.70" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="55" name="frame_000055.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="296.10" ytl="151.90" xbr="550.90" ybr="277.10" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="150.50" ytl="99.12" xbr="294.34" ybr="216.70" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="54" name="frame_000054.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="294.40" ytl="150.88" xbr="551.10" ybr="277.10" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="150.50" ytl="98.00" xbr="294.34" ybr="216.70" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="53" name="frame_000053.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="292.70" ytl="149.86" xbr="551.30" ybr="277.10" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="152.25" ytl="99.65" xbr="291.03" ybr="216.70" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="52" name="frame_000052.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="291.00" ytl="148.84" xbr="551.50" ybr="277.10" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="154.00" ytl="101.30" xbr="287.71" ybr="216.70" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="51" name="frame_000051.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="289.30" ytl="147.82" xbr="551.70" ybr="277.10" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="208.22" ytl="143.39" xbr="284.40" ybr="216.70" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="50" name="frame_000050.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="287.60" ytl="146.80" xbr="551.90" ybr="277.10" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="210.11" ytl="142.91" xbr="286.29" ybr="217.21" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="49" name="frame_000049.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="271.30" ytl="142.83" xbr="553.90" ybr="277.10" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="209.48" ytl="145.28" xbr="278.72" ybr="219.58" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="48" name="frame_000048.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="267.35" ytl="139.84" xbr="550.55" ybr="275.72" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="208.85" ytl="147.65" xbr="271.16" ybr="221.94" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="47" name="frame_000047.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="263.40" ytl="136.86" xbr="547.20" ybr="274.35" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="208.22" ytl="150.01" xbr="263.59" ybr="224.31" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="46" name="frame_000046.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="259.45" ytl="133.88" xbr="543.85" ybr="272.98" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="203.01" ytl="156.16" xbr="258.38" ybr="230.46" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="45" name="frame_000045.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="255.50" ytl="130.90" xbr="540.50" ybr="271.60" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="197.81" ytl="162.32" xbr="253.18" ybr="236.61" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="44" name="frame_000044.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="239.40" ytl="129.80" xbr="540.50" ybr="271.60" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="43" name="frame_000043.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="223.30" ytl="128.69" xbr="540.50" ybr="271.60" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="42" name="frame_000042.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="207.20" ytl="127.59" xbr="540.50" ybr="271.60" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="41" name="frame_000041.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="191.10" ytl="126.49" xbr="540.50" ybr="271.60" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="40" name="frame_000040.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="195.68" ytl="125.39" xbr="540.50" ybr="271.60" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="39" name="frame_000039.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="195.01" ytl="124.17" xbr="539.82" ybr="270.56" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="38" name="frame_000038.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="194.33" ytl="122.96" xbr="539.15" ybr="269.52" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="37" name="frame_000037.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="193.66" ytl="121.75" xbr="538.47" ybr="268.48" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="36" name="frame_000036.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="192.99" ytl="120.54" xbr="537.80" ybr="267.44" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="35" name="frame_000035.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="192.31" ytl="119.33" xbr="537.13" ybr="266.40" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="34" name="frame_000034.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="191.25" ytl="119.27" xbr="536.07" ybr="265.62" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="33" name="frame_000033.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="190.19" ytl="119.22" xbr="535.01" ybr="264.85" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="32" name="frame_000032.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="189.13" ytl="119.17" xbr="533.95" ybr="264.07" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="31" name="frame_000031.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="188.07" ytl="119.11" xbr="532.89" ybr="263.29" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="30" name="frame_000030.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="187.01" ytl="119.06" xbr="531.83" ybr="262.52" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="29" name="frame_000029.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="185.95" ytl="119.01" xbr="530.77" ybr="261.74" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="28" name="frame_000028.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="184.89" ytl="118.95" xbr="529.71" ybr="260.96" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="27" name="frame_000027.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="183.83" ytl="118.90" xbr="528.65" ybr="260.19" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="26" name="frame_000026.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="182.77" ytl="118.85" xbr="527.59" ybr="259.41" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="25" name="frame_000025.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="181.71" ytl="118.79" xbr="526.53" ybr="258.64" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="24" name="frame_000024.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="180.65" ytl="118.74" xbr="525.47" ybr="257.86" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="23" name="frame_000023.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="179.59" ytl="118.69" xbr="524.41" ybr="257.08" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="22" name="frame_000022.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="178.53" ytl="118.64" xbr="523.35" ybr="256.31" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="21" name="frame_000021.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="177.47" ytl="118.58" xbr="522.29" ybr="255.53" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="20" name="frame_000020.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="176.41" ytl="118.53" xbr="521.23" ybr="254.75" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="19" name="frame_000019.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="175.35" ytl="118.48" xbr="520.17" ybr="253.98" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="18" name="frame_000018.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="174.29" ytl="118.42" xbr="519.11" ybr="253.20" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="17" name="frame_000017.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="173.27" ytl="118.67" xbr="518.08" ybr="253.23" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="16" name="frame_000016.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="172.25" ytl="118.92" xbr="517.06" ybr="253.26" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="15" name="frame_000015.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="171.22" ytl="119.17" xbr="516.04" ybr="253.28" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="14" name="frame_000014.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="170.20" ytl="119.42" xbr="515.02" ybr="253.31" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="13" name="frame_000013.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="169.18" ytl="119.67" xbr="513.99" ybr="253.34" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="12" name="frame_000012.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="168.15" ytl="119.92" xbr="512.97" ybr="253.37" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="11" name="frame_000011.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="167.13" ytl="120.16" xbr="511.95" ybr="253.39" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="10" name="frame_000010.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="166.11" ytl="120.41" xbr="510.93" ybr="253.42" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="9" name="frame_000009.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="165.09" ytl="120.66" xbr="509.90" ybr="253.45" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="8" name="frame_000008.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="164.06" ytl="120.91" xbr="508.88" ybr="253.48" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="7" name="frame_000007.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="163.04" ytl="121.16" xbr="507.86" ybr="253.51" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="6" name="frame_000006.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="162.02" ytl="121.41" xbr="506.84" ybr="253.53" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="5" name="frame_000005.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="161.00" ytl="121.66" xbr="505.81" ybr="253.56" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="4" name="frame_000004.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="159.97" ytl="121.91" xbr="504.79" ybr="253.59" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="3" name="frame_000003.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="158.95" ytl="122.15" xbr="503.77" ybr="253.62" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+  </image>
+  <image id="2" name="frame_000002.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="157.93" ytl="122.40" xbr="502.75" ybr="253.64" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+  <image id="1" name="frame_000001.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="156.91" ytl="122.65" xbr="501.72" ybr="253.67" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+  </image>
+  <image id="0" name="frame_000000.png" width="672" height="389">
+    <box label="abdomen" occluded="0" source="manual" xtl="155.88" ytl="122.90" xbr="500.70" ybr="253.70" z_order="0">
+    </box>
+    <tag label="Probe" source="manual">
+      <attribute name="orientation">v</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">huvf</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">abdomen</attribute>
+    </tag>
+  </image>
+</annotations>

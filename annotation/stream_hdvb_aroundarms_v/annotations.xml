@@ -1,0 +1,3322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>30</id>
+      <name>stream_hdvb_aroundarms_v</name>
+      <size>232</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2021-02-10 12:22:26.715282+00:00</created>
+      <updated>2021-08-13 11:01:36.738480+00:00</updated>
+      <start_frame>0</start_frame>
+      <stop_frame>231</stop_frame>
+      <frame_filter></frame_filter>
+      <labels>
+        <label>
+          <name>Orientation</name>
+          <color>#e32019</color>
+          <attributes>
+            <attribute>
+              <name>Pose</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>hdvb</default_value>
+              <values>hdvb
+huvb
+hdvf
+huvf</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>head</name>
+          <color>#37c45d</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>arm</name>
+          <color>#97e2ea</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>location</name>
+          <color>#3a16e6</color>
+          <attributes>
+            <attribute>
+              <name>View_fetus</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>abdomen</default_value>
+              <values>abdomen
+head
+legs
+arms</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>Probe</name>
+          <color>#fafa37</color>
+          <attributes>
+            <attribute>
+              <name>orientation</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>v</default_value>
+              <values>v
+h</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>diagnostic_plane</name>
+          <color>#01ff20</color>
+          <attributes>
+            <attribute>
+              <name>plane</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>Head_plane</default_value>
+              <values>Head_plane
+Abd_plane
+Femur_plane</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>abdomen</name>
+          <color>#9e2594</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>legs</name>
+          <color>#178dfa</color>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+      <segments>
+        <segment>
+          <id>14</id>
+          <start>0</start>
+          <stop>231</stop>
+          <url>httplocalhost:8080/?id=14</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>TEMP</username>
+        <email>TEMP</email>
+      </owner>
+      <assignee></assignee>
+    </task>
+    <dumped>2021-08-13 11:01:58.980149+00:00</dumped>
+  </meta>
+  <image id="231" name="frame_000231.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="261.41" ytl="135.78" xbr="425.16" ybr="262.08" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="92.74" ytl="154.73" xbr="205.50" ybr="276.40" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="468.09" ytl="205.02" xbr="555.20" ybr="258.70" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="230" name="frame_000230.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="261.41" ytl="135.78" xbr="425.16" ybr="262.08" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="92.74" ytl="154.73" xbr="205.50" ybr="276.40" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="467.15" ytl="205.55" xbr="554.38" ybr="260.13" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="229" name="frame_000229.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="261.41" ytl="135.78" xbr="425.16" ybr="262.08" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="92.74" ytl="154.73" xbr="205.50" ybr="276.40" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="466.20" ytl="206.08" xbr="553.55" ybr="261.55" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="228" name="frame_000228.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="261.41" ytl="135.78" xbr="425.16" ybr="262.08" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="92.74" ytl="154.73" xbr="205.50" ybr="276.40" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="465.26" ytl="206.62" xbr="552.73" ybr="262.98" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="227" name="frame_000227.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="261.41" ytl="135.78" xbr="425.16" ybr="262.08" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="92.74" ytl="154.73" xbr="205.50" ybr="276.40" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="464.31" ytl="207.15" xbr="551.90" ybr="264.40" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="226" name="frame_000226.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="261.79" ytl="136.06" xbr="425.53" ybr="262.36" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="90.61" ytl="152.50" xbr="208.29" ybr="277.20" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="463.36" ytl="207.68" xbr="551.08" ybr="265.83" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="225" name="frame_000225.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="262.16" ytl="136.35" xbr="425.91" ybr="262.65" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="88.48" ytl="150.28" xbr="211.08" ybr="278.00" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="462.42" ytl="208.21" xbr="550.25" ybr="267.25" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="224" name="frame_000224.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="262.54" ytl="136.63" xbr="426.29" ybr="262.93" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="86.35" ytl="148.05" xbr="213.87" ybr="278.80" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="461.47" ytl="208.74" xbr="549.43" ybr="268.68" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="223" name="frame_000223.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="262.92" ytl="136.92" xbr="426.67" ybr="263.22" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="84.23" ytl="145.83" xbr="216.66" ybr="279.60" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="460.52" ytl="209.28" xbr="548.60" ybr="270.10" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="222" name="frame_000222.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="263.30" ytl="137.20" xbr="427.05" ybr="263.50" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="82.10" ytl="143.61" xbr="219.45" ybr="280.40" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="462.70" ytl="208.80" xbr="551.50" ybr="271.55" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="221" name="frame_000221.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="263.30" ytl="137.96" xbr="427.05" ybr="263.50" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="79.97" ytl="141.38" xbr="222.24" ybr="281.20" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="464.88" ytl="208.33" xbr="554.40" ybr="273.01" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="220" name="frame_000220.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="263.30" ytl="138.72" xbr="427.05" ybr="263.50" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="77.84" ytl="139.16" xbr="225.03" ybr="282.00" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="467.05" ytl="207.86" xbr="557.30" ybr="274.46" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="219" name="frame_000219.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="263.30" ytl="139.48" xbr="427.05" ybr="263.50" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="75.71" ytl="136.93" xbr="227.82" ybr="282.80" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="469.23" ytl="207.38" xbr="560.20" ybr="275.91" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="218" name="frame_000218.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="263.30" ytl="140.24" xbr="427.05" ybr="263.50" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="73.58" ytl="134.71" xbr="230.61" ybr="283.60" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="471.41" ytl="206.91" xbr="563.10" ybr="277.37" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="217" name="frame_000217.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="263.30" ytl="141.00" xbr="427.05" ybr="263.50" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="71.45" ytl="132.48" xbr="233.40" ybr="284.40" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="473.58" ytl="206.44" xbr="566.00" ybr="278.82" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="216" name="frame_000216.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="274.65" ytl="141.00" xbr="427.05" ybr="260.16" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="74.76" ytl="131.58" xbr="237.89" ybr="285.23" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="475.76" ytl="205.96" xbr="568.90" ybr="280.27" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="215" name="frame_000215.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="276.70" ytl="139.58" xbr="429.10" ybr="258.74" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="78.07" ytl="130.67" xbr="242.38" ybr="286.05" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="477.94" ytl="205.49" xbr="571.80" ybr="281.73" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="214" name="frame_000214.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="278.75" ytl="138.16" xbr="431.15" ybr="257.32" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="81.39" ytl="129.76" xbr="246.88" ybr="286.88" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="480.12" ytl="205.02" xbr="574.70" ybr="283.18" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="213" name="frame_000213.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="280.80" ytl="136.74" xbr="433.20" ybr="255.90" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="84.70" ytl="128.86" xbr="251.37" ybr="287.70" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="482.29" ytl="204.54" xbr="577.60" ybr="284.63" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="212" name="frame_000212.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="289.30" ytl="136.74" xbr="441.95" ybr="256.00" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="88.01" ytl="127.95" xbr="255.86" ybr="288.53" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="484.47" ytl="204.07" xbr="580.50" ybr="286.09" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="211" name="frame_000211.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="293.60" ytl="136.74" xbr="450.70" ybr="183.10" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="91.32" ytl="127.04" xbr="260.35" ybr="289.35" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="486.65" ytl="203.60" xbr="583.40" ybr="287.54" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="210" name="frame_000210.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="296.44" ytl="136.74" xbr="446.40" ybr="183.67" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="94.64" ytl="126.13" xbr="264.84" ybr="290.18" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="488.82" ytl="203.13" xbr="586.30" ybr="288.99" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="209" name="frame_000209.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="299.28" ytl="136.74" xbr="446.88" ybr="184.24" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="97.95" ytl="125.23" xbr="269.33" ybr="291.00" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="491.00" ytl="202.65" xbr="589.20" ybr="290.45" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="208" name="frame_000208.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="302.12" ytl="136.74" xbr="447.36" ybr="184.81" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="101.26" ytl="124.32" xbr="273.83" ybr="291.83" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="493.18" ytl="202.18" xbr="592.10" ybr="291.90" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="207" name="frame_000207.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="304.96" ytl="136.74" xbr="447.83" ybr="185.38" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="104.57" ytl="123.41" xbr="278.32" ybr="292.65" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="494.60" ytl="200.29" xbr="588.55" ybr="287.88" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="206" name="frame_000206.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="307.80" ytl="136.74" xbr="448.31" ybr="185.95" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="107.89" ytl="122.51" xbr="282.81" ybr="293.48" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="496.02" ytl="198.39" xbr="585.00" ybr="283.85" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="205" name="frame_000205.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="310.64" ytl="136.74" xbr="448.79" ybr="186.52" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="111.20" ytl="121.60" xbr="287.30" ybr="294.30" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="497.44" ytl="196.50" xbr="581.45" ybr="279.83" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="204" name="frame_000204.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="313.48" ytl="136.74" xbr="449.27" ybr="187.09" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="112.30" ytl="120.19" xbr="292.14" ybr="294.46" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="363.95" ytl="191.18" xbr="469.40" ybr="243.30" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="498.86" ytl="194.61" xbr="577.90" ybr="275.80" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="203" name="frame_000203.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="316.32" ytl="136.74" xbr="449.74" ybr="187.66" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="113.41" ytl="118.77" xbr="296.99" ybr="294.61" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="363.95" ytl="191.18" xbr="469.40" ybr="243.30" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="500.87" ytl="195.08" xbr="578.38" ybr="275.68" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="202" name="frame_000202.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="319.16" ytl="136.74" xbr="450.22" ybr="188.23" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="114.51" ytl="117.36" xbr="301.83" ybr="294.77" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="363.95" ytl="191.18" xbr="469.40" ybr="243.30" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="502.88" ytl="195.55" xbr="578.85" ybr="275.56" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="201" name="frame_000201.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="322.00" ytl="136.74" xbr="450.70" ybr="188.80" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="115.62" ytl="115.94" xbr="306.67" ybr="294.93" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="363.35" ytl="188.46" xbr="478.75" ybr="248.85" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="504.89" ytl="196.03" xbr="579.33" ybr="275.44" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="200" name="frame_000200.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="324.55" ytl="136.74" xbr="445.79" ybr="187.01" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="116.72" ytl="114.53" xbr="311.51" ybr="295.09" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="362.76" ytl="185.74" xbr="488.10" ybr="254.40" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="506.90" ytl="196.50" xbr="579.80" ybr="275.33" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="199" name="frame_000199.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="327.09" ytl="136.74" xbr="440.87" ybr="185.22" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="117.83" ytl="113.11" xbr="316.36" ybr="295.24" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="362.17" ytl="183.02" xbr="497.45" ybr="259.95" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="514.30" ytl="196.33" xbr="582.47" ybr="275.48" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="198" name="frame_000198.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="329.64" ytl="136.74" xbr="435.96" ybr="183.42" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="118.93" ytl="111.70" xbr="321.20" ybr="295.40" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="361.58" ytl="180.30" xbr="506.80" ybr="265.50" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="521.70" ytl="196.17" xbr="585.13" ybr="275.64" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="197" name="frame_000197.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="332.18" ytl="136.74" xbr="431.05" ybr="181.63" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="120.04" ytl="112.00" xbr="325.40" ybr="295.56" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="360.95" ytl="177.62" xbr="510.80" ybr="266.50" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="529.10" ytl="196.00" xbr="587.80" ybr="275.80" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="196" name="frame_000196.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="334.73" ytl="136.74" xbr="426.14" ybr="179.84" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="121.14" ytl="112.30" xbr="329.60" ybr="295.71" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="360.32" ytl="174.93" xbr="514.80" ybr="267.50" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="539.76" ytl="200.74" xbr="588.76" ybr="257.59" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="195" name="frame_000195.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="335.67" ytl="136.46" xbr="427.08" ybr="179.56" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="122.25" ytl="112.60" xbr="333.80" ybr="295.87" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="359.69" ytl="172.25" xbr="518.80" ybr="268.50" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="550.42" ytl="205.47" xbr="589.72" ybr="239.38" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="194" name="frame_000194.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="336.62" ytl="136.17" xbr="428.03" ybr="179.27" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="123.35" ytl="112.90" xbr="338.00" ybr="296.03" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="359.06" ytl="169.57" xbr="522.80" ybr="269.50" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="553.26" ytl="205.24" xbr="592.56" ybr="239.14" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="193" name="frame_000193.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="337.57" ytl="135.89" xbr="428.97" ybr="178.99" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="124.46" ytl="113.20" xbr="342.20" ybr="296.19" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="358.42" ytl="166.89" xbr="526.80" ybr="270.50" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="556.10" ytl="205.00" xbr="595.40" ybr="238.91" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="192" name="frame_000192.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="338.51" ytl="135.60" xbr="429.92" ybr="178.70" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="125.56" ytl="113.50" xbr="346.40" ybr="296.34" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="357.79" ytl="164.21" xbr="530.80" ybr="271.50" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="556.10" ytl="205.00" xbr="595.40" ybr="238.91" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="191" name="frame_000191.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="339.46" ytl="135.32" xbr="430.87" ybr="178.42" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="126.67" ytl="113.80" xbr="350.60" ybr="296.50" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="357.16" ytl="161.53" xbr="534.80" ybr="272.50" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="556.10" ytl="205.00" xbr="595.40" ybr="238.91" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="190" name="frame_000190.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="340.41" ytl="135.04" xbr="431.81" ybr="178.14" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="127.77" ytl="114.10" xbr="348.59" ybr="296.66" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="356.53" ytl="158.84" xbr="538.80" ybr="273.50" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="556.10" ytl="205.00" xbr="595.40" ybr="238.91" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="189" name="frame_000189.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="341.35" ytl="134.75" xbr="432.76" ybr="177.85" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="128.88" ytl="114.40" xbr="346.57" ybr="296.81" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="355.90" ytl="156.16" xbr="542.80" ybr="274.50" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="556.10" ytl="205.00" xbr="595.40" ybr="238.91" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="188" name="frame_000188.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="342.30" ytl="134.47" xbr="433.71" ybr="177.57" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="129.98" ytl="114.70" xbr="344.56" ybr="296.97" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="361.98" ytl="161.23" xbr="536.85" ybr="268.75" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="553.73" ytl="202.47" xbr="595.87" ybr="237.17" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="187" name="frame_000187.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="343.25" ytl="134.18" xbr="434.65" ybr="177.28" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="131.09" ytl="115.00" xbr="342.54" ybr="297.13" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="368.06" ytl="166.30" xbr="530.90" ybr="263.00" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="551.37" ytl="199.93" xbr="596.33" ybr="235.44" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="186" name="frame_000186.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="344.19" ytl="133.90" xbr="435.60" ybr="177.00" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="132.19" ytl="115.30" xbr="340.53" ybr="297.29" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="374.14" ytl="171.37" xbr="524.95" ybr="257.25" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="549.00" ytl="197.40" xbr="596.80" ybr="233.70" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="185" name="frame_000185.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="344.19" ytl="136.11" xbr="448.53" ybr="182.06" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="133.30" ytl="115.60" xbr="338.51" ybr="297.44" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="380.22" ytl="176.44" xbr="519.00" ybr="251.50" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="553.57" ytl="202.13" xbr="591.87" ybr="236.03" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="184" name="frame_000184.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="344.19" ytl="138.33" xbr="461.47" ybr="187.12" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="134.40" ytl="115.90" xbr="336.50" ybr="297.60" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="386.30" ytl="181.51" xbr="513.05" ybr="245.75" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="544.14" ytl="198.82" xbr="595.23" ybr="248.98" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="183" name="frame_000183.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="344.19" ytl="140.54" xbr="474.40" ybr="192.17" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="135.94" ytl="118.35" xbr="331.13" ybr="295.08" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="392.38" ytl="186.58" xbr="507.10" ybr="240.00" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="534.72" ytl="195.51" xbr="598.60" ybr="261.93" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="182" name="frame_000182.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="337.09" ytl="140.07" xbr="486.20" ybr="191.70" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="137.48" ytl="120.80" xbr="325.77" ybr="292.55" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="398.46" ytl="191.66" xbr="501.15" ybr="234.25" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="525.30" ytl="192.20" xbr="601.97" ybr="274.88" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="181" name="frame_000181.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="334.25" ytl="140.07" xbr="487.85" ybr="190.50" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="139.01" ytl="123.24" xbr="320.40" ybr="290.03" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="522.35" ytl="197.28" xbr="601.37" ybr="279.14" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="180" name="frame_000180.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="331.40" ytl="140.07" xbr="489.49" ybr="256.50" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="140.55" ytl="125.69" xbr="315.03" ybr="287.50" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="519.40" ytl="202.35" xbr="600.78" ybr="283.40" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="179" name="frame_000179.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="326.77" ytl="139.78" xbr="488.45" ybr="259.13" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="142.09" ytl="128.14" xbr="309.67" ybr="284.98" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="516.46" ytl="207.43" xbr="600.19" ybr="287.65" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="178" name="frame_000178.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="322.13" ytl="139.50" xbr="487.41" ybr="261.77" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="143.63" ytl="130.59" xbr="304.30" ybr="282.45" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="513.51" ytl="212.50" xbr="599.60" ybr="291.91" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="177" name="frame_000177.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="317.50" ytl="139.22" xbr="486.37" ybr="264.40" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="145.16" ytl="133.04" xbr="298.93" ybr="279.93" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="513.51" ytl="214.68" xbr="599.60" ybr="291.91" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="176" name="frame_000176.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="317.70" ytl="138.93" xbr="485.33" ybr="264.60" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="146.70" ytl="135.49" xbr="293.57" ybr="277.40" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="513.51" ytl="216.86" xbr="599.60" ybr="291.91" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="175" name="frame_000175.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="317.90" ytl="138.65" xbr="484.29" ybr="264.80" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="148.24" ytl="137.93" xbr="288.20" ybr="274.88" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="513.51" ytl="219.04" xbr="599.60" ybr="291.91" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="174" name="frame_000174.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="316.54" ytl="147.40" xbr="486.10" ybr="263.52" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="149.78" ytl="140.38" xbr="282.83" ybr="272.35" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="513.51" ytl="221.22" xbr="599.60" ybr="291.91" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="173" name="frame_000173.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="315.18" ytl="144.86" xbr="484.35" ybr="262.24" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="151.31" ytl="142.83" xbr="277.47" ybr="269.83" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="513.51" ytl="223.40" xbr="599.60" ybr="291.91" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="172" name="frame_000172.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="313.82" ytl="142.31" xbr="482.59" ybr="260.96" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="152.85" ytl="145.28" xbr="272.10" ybr="267.30" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="511.99" ytl="219.24" xbr="601.02" ybr="291.72" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="171" name="frame_000171.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="312.46" ytl="139.77" xbr="480.84" ybr="259.68" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="143.74" ytl="140.31" xbr="274.83" ybr="272.33" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="510.48" ytl="215.08" xbr="602.45" ybr="291.53" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="170" name="frame_000170.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="311.10" ytl="137.23" xbr="479.08" ybr="258.40" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="134.63" ytl="135.34" xbr="277.55" ybr="277.35" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="508.96" ytl="210.91" xbr="603.87" ybr="291.35" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="169" name="frame_000169.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="310.30" ytl="136.12" xbr="473.09" ybr="233.80" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="125.51" ytl="130.37" xbr="280.28" ybr="282.38" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="507.45" ytl="206.75" xbr="605.30" ybr="291.16" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="168" name="frame_000168.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="309.50" ytl="135.02" xbr="467.09" ybr="209.20" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="116.40" ytl="125.40" xbr="283.00" ybr="287.40" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="505.94" ytl="202.59" xbr="606.72" ybr="290.97" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="167" name="frame_000167.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="308.70" ytl="133.92" xbr="461.10" ybr="184.60" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="113.92" ytl="127.06" xbr="279.80" ybr="286.05" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="502.50" ytl="202.00" xbr="603.29" ybr="290.37" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="166" name="frame_000166.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="308.70" ytl="133.92" xbr="451.60" ybr="184.60" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="111.44" ytl="128.71" xbr="276.60" ybr="284.70" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="499.07" ytl="201.40" xbr="599.86" ybr="289.78" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="165" name="frame_000165.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="303.00" ytl="133.92" xbr="451.60" ybr="249.00" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="108.95" ytl="130.37" xbr="273.40" ybr="283.35" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="495.64" ytl="200.81" xbr="596.43" ybr="289.19" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="164" name="frame_000164.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="297.30" ytl="133.92" xbr="451.60" ybr="259.40" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="106.47" ytl="132.03" xbr="270.20" ybr="282.00" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="492.21" ytl="200.22" xbr="593.00" ybr="288.60" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="163" name="frame_000163.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="294.20" ytl="133.92" xbr="451.60" ybr="260.80" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="108.25" ytl="136.23" xbr="263.04" ybr="278.04" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="488.74" ytl="202.11" xbr="586.53" ybr="285.91" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="162" name="frame_000162.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="291.10" ytl="133.92" xbr="451.61" ybr="262.20" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="110.02" ytl="140.43" xbr="255.89" ybr="274.08" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="485.27" ytl="204.01" xbr="580.06" ybr="283.22" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="161" name="frame_000161.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="288.57" ytl="137.54" xbr="449.87" ybr="263.45" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="111.80" ytl="144.63" xbr="248.73" ybr="270.13" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="481.80" ytl="205.90" xbr="573.58" ybr="280.53" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="160" name="frame_000160.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="286.03" ytl="141.17" xbr="448.14" ybr="264.70" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="113.57" ytl="148.83" xbr="241.58" ybr="266.17" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="481.44" ytl="206.73" xbr="570.86" ybr="278.87" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="159" name="frame_000159.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="283.50" ytl="144.80" xbr="446.40" ybr="265.95" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="115.35" ytl="153.03" xbr="234.42" ybr="262.21" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="481.07" ytl="207.57" xbr="568.14" ybr="277.21" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="158" name="frame_000158.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="281.13" ytl="144.18" xbr="442.60" ybr="265.63" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="117.12" ytl="157.23" xbr="227.26" ybr="258.25" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="480.71" ytl="208.40" xbr="565.42" ybr="275.56" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="157" name="frame_000157.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="278.77" ytl="143.56" xbr="438.80" ybr="265.32" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="118.90" ytl="161.43" xbr="220.11" ybr="254.29" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="480.34" ytl="209.24" xbr="562.70" ybr="273.90" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="156" name="frame_000156.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="276.40" ytl="142.94" xbr="434.99" ybr="265.00" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="120.67" ytl="165.63" xbr="212.95" ybr="250.34" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="479.87" ytl="212.39" xbr="557.50" ybr="270.27" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="155" name="frame_000155.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="277.34" ytl="144.36" xbr="434.36" ybr="265.79" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="479.40" ytl="215.55" xbr="552.30" ybr="266.64" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="154" name="frame_000154.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="278.28" ytl="145.78" xbr="433.73" ybr="266.59" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="478.92" ytl="218.70" xbr="547.10" ybr="263.01" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="153" name="frame_000153.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="279.21" ytl="147.20" xbr="433.10" ybr="267.38" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="478.92" ytl="212.37" xbr="550.25" ybr="264.74" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="152" name="frame_000152.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="278.43" ytl="145.93" xbr="434.37" ybr="268.01" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="478.92" ytl="206.05" xbr="553.39" ybr="266.48" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="151" name="frame_000151.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="277.64" ytl="144.67" xbr="435.63" ybr="268.64" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="478.92" ytl="199.72" xbr="556.54" ybr="268.21" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="150" name="frame_000150.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="276.85" ytl="143.40" xbr="436.90" ybr="269.27" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="476.79" ytl="195.01" xbr="562.44" ybr="273.66" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="149" name="frame_000149.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="275.90" ytl="136.29" xbr="429.80" ybr="268.80" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="118.30" ytl="170.30" xbr="233.80" ybr="264.50" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="474.66" ytl="190.30" xbr="568.34" ybr="279.10" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="148" name="frame_000148.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="280.15" ytl="136.29" xbr="429.80" ybr="258.40" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="108.05" ytl="162.57" xbr="241.05" ybr="280.13" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="476.79" ytl="183.41" xbr="569.77" ybr="269.85" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="147" name="frame_000147.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="277.08" ytl="136.76" xbr="422.90" ybr="191.13" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="97.81" ytl="154.83" xbr="248.31" ybr="295.77" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="478.92" ytl="176.53" xbr="571.20" ybr="260.60" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="146" name="frame_000146.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="274.00" ytl="137.23" xbr="413.70" ybr="191.60" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="87.56" ytl="147.10" xbr="255.56" ybr="311.40" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="322.80" ytl="170.40" xbr="455.20" ybr="255.10" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="481.76" ytl="173.69" xbr="570.72" ybr="255.15" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="145" name="frame_000145.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="263.59" ytl="139.60" xbr="414.60" ybr="185.00" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="84.50" ytl="139.78" xbr="260.98" ybr="313.75" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="322.80" ytl="170.40" xbr="455.20" ybr="255.10" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="484.60" ytl="170.85" xbr="570.24" ybr="249.70" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="144" name="frame_000144.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="263.59" ytl="139.60" xbr="372.00" ybr="183.61" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="81.44" ytl="132.46" xbr="266.40" ybr="316.10" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="300.78" ytl="163.30" xbr="470.83" ybr="263.15" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="489.80" ytl="167.54" xbr="574.97" ybr="242.60" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="143" name="frame_000143.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="260.75" ytl="139.60" xbr="319.90" ybr="183.61" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="80.02" ytl="132.70" xbr="265.85" ybr="317.01" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="269.30" ytl="154.30" xbr="477.00" ybr="269.30" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="495.00" ytl="164.23" xbr="579.70" ybr="235.50" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="142" name="frame_000142.png" width="672" height="389">
+    <box label="head" occluded="0" source="manual" xtl="78.60" ytl="132.93" xbr="265.30" ybr="317.92" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="258.89" ytl="137.74" xbr="489.30" ybr="273.10" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="495.03" ytl="158.55" xbr="579.20" ybr="224.19" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="141" name="frame_000141.png" width="672" height="389">
+    <box label="head" occluded="0" source="manual" xtl="77.18" ytl="133.17" xbr="264.75" ybr="318.83" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="235.70" ytl="134.90" xbr="500.20" ybr="274.50" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="500.71" ytl="158.07" xbr="584.88" ybr="223.71" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="140" name="frame_000140.png" width="672" height="389">
+    <box label="head" occluded="0" source="manual" xtl="75.76" ytl="133.41" xbr="264.20" ybr="319.73" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="260.78" ytl="136.27" xbr="507.10" ybr="275.87" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="506.39" ytl="157.60" xbr="590.56" ybr="223.24" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="139" name="frame_000139.png" width="672" height="389">
+    <box label="head" occluded="0" source="manual" xtl="74.34" ytl="133.64" xbr="263.65" ybr="320.64" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="257.11" ytl="136.04" xbr="504.46" ybr="275.64" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="505.60" ytl="157.13" xbr="589.77" ybr="222.77" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="138" name="frame_000138.png" width="672" height="389">
+    <box label="head" occluded="0" source="manual" xtl="72.92" ytl="133.88" xbr="263.10" ybr="321.55" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="253.45" ytl="135.81" xbr="501.83" ybr="275.41" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="504.81" ytl="156.65" xbr="588.98" ybr="222.29" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="137" name="frame_000137.png" width="672" height="389">
+    <box label="head" occluded="0" source="manual" xtl="71.50" ytl="134.12" xbr="262.55" ybr="322.46" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="249.78" ytl="135.58" xbr="499.19" ybr="275.18" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="504.02" ytl="156.18" xbr="588.19" ybr="221.82" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="136" name="frame_000136.png" width="672" height="389">
+    <box label="head" occluded="0" source="manual" xtl="70.08" ytl="134.35" xbr="262.00" ybr="323.37" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="246.11" ytl="135.35" xbr="496.55" ybr="274.95" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="499.52" ytl="155.47" xbr="583.70" ybr="221.11" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="135" name="frame_000135.png" width="672" height="389">
+    <box label="head" occluded="0" source="manual" xtl="68.66" ytl="134.59" xbr="261.45" ybr="324.28" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="242.44" ytl="135.12" xbr="493.91" ybr="274.72" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="495.03" ytl="154.76" xbr="579.20" ybr="220.40" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="134" name="frame_000134.png" width="672" height="389">
+    <box label="head" occluded="0" source="manual" xtl="67.24" ytl="134.83" xbr="260.90" ybr="325.18" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="238.78" ytl="134.89" xbr="491.28" ybr="274.49" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="492.03" ytl="152.55" xbr="580.30" ybr="219.60" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="133" name="frame_000133.png" width="672" height="389">
+    <box label="head" occluded="0" source="manual" xtl="65.82" ytl="135.06" xbr="260.35" ybr="326.09" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="235.11" ytl="134.66" xbr="488.64" ybr="274.26" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="489.03" ytl="150.34" xbr="581.40" ybr="218.80" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="132" name="frame_000132.png" width="672" height="389">
+    <box label="head" occluded="0" source="manual" xtl="64.40" ytl="135.30" xbr="259.80" ybr="327.00" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="231.44" ytl="134.43" xbr="486.00" ybr="274.03" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="486.04" ytl="148.14" xbr="582.50" ybr="218.00" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="131" name="frame_000131.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="229.90" ytl="138.83" xbr="304.90" ybr="184.60" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="63.15" ytl="141.16" xbr="249.32" ybr="322.50" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="242.67" ytl="142.11" xbr="472.20" ybr="267.28" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="482.49" ytl="148.14" xbr="578.95" ybr="218.00" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="130" name="frame_000130.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="229.90" ytl="138.83" xbr="304.90" ybr="184.60" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="61.90" ytl="147.02" xbr="238.84" ybr="318.01" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="253.91" ytl="149.80" xbr="458.40" ybr="260.53" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="478.94" ytl="148.14" xbr="575.40" ybr="218.00" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="129" name="frame_000129.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="226.33" ytl="138.83" xbr="316.00" ybr="187.92" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="60.66" ytl="152.88" xbr="228.36" ybr="313.51" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="265.14" ytl="157.48" xbr="444.60" ybr="253.78" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="471.37" ytl="149.08" xbr="577.80" ybr="305.10" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="128" name="frame_000128.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="222.77" ytl="138.83" xbr="327.10" ybr="191.23" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="59.41" ytl="158.75" xbr="217.88" ybr="309.02" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="276.38" ytl="165.17" xbr="430.80" ybr="247.03" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="463.79" ytl="148.85" xbr="579.00" ybr="298.95" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="127" name="frame_000127.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="224.19" ytl="135.52" xbr="345.10" ybr="187.92" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="58.16" ytl="164.61" xbr="207.40" ybr="304.52" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="286.54" ytl="172.73" xbr="415.58" ybr="240.17" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="456.22" ytl="148.61" xbr="580.20" ybr="292.80" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="126" name="frame_000126.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="224.19" ytl="135.52" xbr="358.79" ybr="187.92" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="56.91" ytl="170.47" xbr="190.64" ybr="300.03" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="296.71" ytl="180.30" xbr="400.35" ybr="233.30" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="440.37" ytl="156.89" xbr="577.10" ybr="284.30" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="125" name="frame_000125.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="220.40" ytl="134.10" xbr="355.00" ybr="261.70" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="55.66" ytl="176.33" xbr="173.87" ybr="295.53" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="424.52" ytl="165.17" xbr="574.00" ybr="275.80" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="124" name="frame_000124.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="212.59" ytl="131.73" xbr="355.01" ybr="263.36" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="54.42" ytl="182.19" xbr="157.11" ybr="291.03" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="415.76" ytl="168.25" xbr="568.30" ybr="275.10" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="123" name="frame_000123.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="204.77" ytl="129.35" xbr="355.01" ybr="265.03" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="407.01" ytl="171.32" xbr="562.60" ybr="274.40" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="122" name="frame_000122.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="201.07" ytl="129.59" xbr="351.31" ybr="265.26" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="404.34" ytl="172.36" xbr="558.00" ybr="273.11" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="121" name="frame_000121.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="197.36" ytl="129.83" xbr="347.60" ybr="265.50" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="401.67" ytl="173.39" xbr="553.40" ybr="271.82" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="120" name="frame_000120.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="193.65" ytl="130.06" xbr="343.89" ybr="265.74" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="399.00" ytl="174.42" xbr="548.80" ybr="270.53" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="119" name="frame_000119.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="189.95" ytl="130.30" xbr="340.19" ybr="265.97" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="396.34" ytl="175.45" xbr="544.20" ybr="269.24" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="118" name="frame_000118.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="186.24" ytl="130.54" xbr="336.48" ybr="266.21" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="393.67" ytl="176.49" xbr="539.60" ybr="267.95" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="117" name="frame_000117.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="182.53" ytl="130.77" xbr="332.77" ybr="266.45" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="391.00" ytl="177.52" xbr="535.00" ybr="266.65" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="116" name="frame_000116.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="181.35" ytl="130.54" xbr="331.59" ybr="266.21" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="388.33" ytl="178.55" xbr="530.40" ybr="265.36" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="115" name="frame_000115.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="180.17" ytl="130.30" xbr="330.41" ybr="265.97" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="385.67" ytl="179.58" xbr="525.80" ybr="264.07" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="114" name="frame_000114.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="178.98" ytl="130.06" xbr="329.22" ybr="265.74" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="383.00" ytl="180.62" xbr="521.20" ybr="262.78" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="113" name="frame_000113.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="177.80" ytl="129.83" xbr="328.04" ybr="265.50" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="380.33" ytl="181.65" xbr="516.60" ybr="261.49" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="112" name="frame_000112.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="178.90" ytl="129.67" xbr="327.09" ybr="264.07" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="377.67" ytl="182.68" xbr="512.00" ybr="260.20" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="111" name="frame_000111.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="180.00" ytl="129.51" xbr="326.15" ybr="262.63" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="371.99" ytl="183.63" xbr="503.50" ybr="255.00" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="110" name="frame_000110.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="181.10" ytl="129.35" xbr="325.20" ybr="261.20" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="42.10" ytl="179.30" xbr="126.60" ybr="303.90" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="375.44" ytl="181.11" xbr="507.73" ybr="257.83" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="109" name="frame_000109.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="180.40" ytl="129.35" xbr="325.20" ybr="259.05" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="42.10" ytl="171.00" xbr="136.55" ybr="303.90" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="378.90" ytl="178.59" xbr="511.95" ybr="260.66" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="108" name="frame_000108.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="179.70" ytl="129.35" xbr="325.20" ybr="256.90" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="42.10" ytl="162.70" xbr="146.50" ybr="303.90" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="382.36" ytl="176.07" xbr="516.18" ybr="263.49" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="107" name="frame_000107.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="179.70" ytl="131.72" xbr="325.20" ybr="188.30" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="42.10" ytl="160.35" xbr="157.15" ybr="303.90" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="386.64" ytl="173.55" xbr="522.86" ybr="266.31" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="106" name="frame_000106.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="185.40" ytl="131.72" xbr="325.20" ybr="188.30" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="42.10" ytl="158.00" xbr="167.80" ybr="303.90" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="390.93" ytl="171.04" xbr="529.55" ybr="269.14" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="105" name="frame_000105.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="191.10" ytl="131.72" xbr="325.20" ybr="188.30" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="42.10" ytl="156.30" xbr="177.46" ybr="304.90" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="234.30" ytl="172.70" xbr="350.90" ybr="242.70" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="395.21" ytl="168.52" xbr="536.23" ybr="271.97" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="104" name="frame_000104.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="194.20" ytl="131.72" xbr="320.95" ybr="181.20" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="42.10" ytl="154.60" xbr="187.12" ybr="305.90" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="234.30" ytl="172.70" xbr="360.80" ybr="242.70" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="399.50" ytl="166.00" xbr="542.91" ybr="274.80" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="103" name="frame_000103.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="197.30" ytl="131.72" xbr="316.70" ybr="174.10" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="42.10" ytl="152.90" xbr="196.78" ybr="306.90" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="223.65" ytl="166.30" xbr="382.75" ybr="248.15" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="409.73" ytl="162.57" xbr="548.54" ybr="283.50" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="102" name="frame_000102.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="197.80" ytl="131.48" xbr="294.50" ybr="177.88" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="42.10" ytl="151.20" xbr="206.44" ybr="307.90" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="213.00" ytl="159.90" xbr="404.70" ybr="253.60" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="419.96" ytl="159.14" xbr="554.17" ybr="292.20" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="101" name="frame_000101.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="207.77" ytl="131.25" xbr="280.29" ybr="182.16" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="42.10" ytl="149.50" xbr="216.10" ybr="308.90" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="220.48" ytl="155.90" xbr="400.43" ybr="250.37" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="430.19" ytl="155.71" xbr="559.80" ybr="300.90" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="100" name="frame_000100.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="205.88" ytl="134.09" xbr="278.40" ybr="185.00" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="42.10" ytl="147.80" xbr="214.20" ybr="309.88" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="227.97" ytl="160.40" xbr="396.17" ybr="247.13" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="429.74" ytl="159.07" xbr="562.57" ybr="295.41" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="99" name="frame_000099.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="205.88" ytl="134.09" xbr="283.60" ybr="181.95" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="42.10" ytl="146.10" xbr="212.30" ybr="310.86" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="235.45" ytl="164.90" xbr="391.90" ybr="243.90" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="429.30" ytl="162.43" xbr="565.33" ybr="289.91" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="98" name="frame_000098.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="205.88" ytl="134.09" xbr="313.40" ybr="178.90" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="42.10" ytl="144.40" xbr="210.40" ybr="311.84" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="242.94" ytl="169.40" xbr="387.63" ybr="240.67" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="428.85" ytl="165.79" xbr="568.10" ybr="284.42" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="97" name="frame_000097.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="214.87" ytl="134.09" xbr="314.80" ybr="178.90" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="42.10" ytl="142.70" xbr="208.50" ybr="312.82" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="250.42" ytl="173.90" xbr="383.37" ybr="237.43" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="428.40" ytl="169.15" xbr="564.53" ybr="278.93" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="96" name="frame_000096.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="214.87" ytl="134.09" xbr="335.10" ybr="184.60" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="42.10" ytl="141.00" xbr="206.60" ybr="313.80" z_order="0">
+    </box>
+    <box label="abdomen" occluded="0" source="manual" xtl="257.91" ytl="178.40" xbr="379.10" ybr="234.20" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="424.75" ytl="174.64" xbr="562.51" ybr="275.56" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="95" name="frame_000095.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="212.50" ytl="129.83" xbr="363.05" ybr="186.00" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="46.41" ytl="142.66" xbr="203.86" ybr="310.39" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="421.11" ytl="180.12" xbr="560.50" ybr="272.20" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="94" name="frame_000094.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="217.26" ytl="129.83" xbr="363.05" ybr="259.83" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="50.72" ytl="144.32" xbr="201.12" ybr="306.98" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="419.59" ytl="184.19" xbr="552.53" ybr="270.75" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="93" name="frame_000093.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="222.23" ytl="130.06" xbr="368.02" ybr="260.06" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="55.03" ytl="145.98" xbr="198.38" ybr="303.57" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="418.08" ytl="188.26" xbr="544.55" ybr="269.30" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="92" name="frame_000092.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="227.20" ytl="130.30" xbr="372.99" ybr="260.30" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="59.34" ytl="147.63" xbr="195.64" ybr="300.16" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="416.57" ytl="192.33" xbr="536.58" ybr="267.85" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="91" name="frame_000091.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="228.61" ytl="132.90" xbr="375.59" ybr="261.48" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="63.65" ytl="149.29" xbr="192.90" ybr="296.75" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="415.05" ytl="196.40" xbr="528.60" ybr="266.40" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="90" name="frame_000090.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="230.02" ytl="135.50" xbr="378.19" ybr="262.65" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="67.96" ytl="150.95" xbr="190.16" ybr="293.34" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="419.98" ytl="198.67" xbr="532.77" ybr="266.21" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="89" name="frame_000089.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="231.43" ytl="138.10" xbr="380.80" ybr="263.83" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="72.27" ytl="152.61" xbr="187.42" ybr="289.93" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="424.92" ytl="200.93" xbr="536.93" ybr="266.02" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="88" name="frame_000088.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="232.83" ytl="140.70" xbr="383.40" ybr="265.01" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="76.58" ytl="154.27" xbr="184.68" ybr="286.52" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="429.85" ytl="203.20" xbr="541.10" ybr="265.84" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="87" name="frame_000087.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="231.89" ytl="141.65" xbr="387.40" ybr="265.48" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="80.89" ytl="155.93" xbr="181.94" ybr="283.11" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="431.47" ytl="203.33" xbr="541.97" ybr="266.12" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="86" name="frame_000086.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="230.94" ytl="142.60" xbr="391.40" ybr="265.95" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="85.20" ytl="157.58" xbr="179.20" ybr="279.70" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="433.09" ytl="203.46" xbr="542.83" ybr="266.41" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="85" name="frame_000085.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="232.08" ytl="142.74" xbr="391.54" ybr="266.05" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="81.05" ytl="154.86" xbr="183.35" ybr="286.10" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="434.71" ytl="203.59" xbr="543.70" ybr="266.69" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="84" name="frame_000084.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="233.21" ytl="142.88" xbr="391.68" ybr="266.14" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="76.90" ytl="152.14" xbr="187.50" ybr="292.50" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="436.33" ytl="203.72" xbr="544.56" ybr="266.98" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="83" name="frame_000083.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="234.35" ytl="143.02" xbr="391.82" ybr="266.24" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="72.75" ytl="149.42" xbr="191.65" ybr="298.90" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="437.95" ytl="203.85" xbr="545.43" ybr="267.27" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="82" name="frame_000082.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="235.49" ytl="143.16" xbr="391.96" ybr="266.33" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="68.60" ytl="146.70" xbr="195.80" ybr="305.30" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="439.57" ytl="203.98" xbr="546.30" ybr="267.55" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="81" name="frame_000081.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="236.62" ytl="143.30" xbr="392.10" ybr="266.43" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="68.60" ytl="148.12" xbr="193.56" ybr="302.99" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="434.93" ytl="201.14" xbr="540.90" ybr="264.00" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="80" name="frame_000080.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="237.76" ytl="143.44" xbr="392.24" ybr="266.52" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="68.60" ytl="149.54" xbr="191.33" ybr="300.68" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="435.68" ytl="202.18" xbr="538.58" ybr="263.67" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="79" name="frame_000079.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="238.89" ytl="143.58" xbr="392.38" ybr="266.62" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="68.60" ytl="150.96" xbr="189.09" ybr="298.36" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="436.44" ytl="203.22" xbr="536.26" ybr="263.34" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="78" name="frame_000078.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="240.03" ytl="143.72" xbr="392.52" ybr="266.71" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="68.60" ytl="152.38" xbr="186.85" ybr="296.05" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="437.20" ytl="204.26" xbr="533.94" ybr="263.01" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="77" name="frame_000077.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="241.16" ytl="143.86" xbr="392.66" ybr="266.81" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="68.60" ytl="153.80" xbr="184.61" ybr="293.74" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="437.96" ytl="205.30" xbr="531.62" ybr="262.68" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="76" name="frame_000076.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="242.30" ytl="144.00" xbr="392.80" ybr="266.90" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="68.60" ytl="155.22" xbr="182.38" ybr="291.43" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="438.71" ytl="206.34" xbr="529.30" ybr="262.35" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="75" name="frame_000075.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="241.17" ytl="143.90" xbr="392.32" ybr="266.85" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="68.60" ytl="156.64" xbr="180.14" ybr="289.11" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="439.47" ytl="207.38" xbr="526.98" ybr="262.02" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="74" name="frame_000074.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="240.04" ytl="143.81" xbr="391.85" ybr="266.80" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="68.60" ytl="158.06" xbr="177.90" ybr="286.80" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="440.23" ytl="208.42" xbr="524.66" ybr="261.69" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="73" name="frame_000073.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="238.90" ytl="143.71" xbr="391.37" ybr="266.74" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="71.44" ytl="160.34" xbr="177.51" ybr="282.30" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="440.98" ytl="209.47" xbr="522.34" ybr="261.36" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="72" name="frame_000072.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="237.77" ytl="143.61" xbr="390.90" ybr="266.69" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="74.28" ytl="162.63" xbr="177.12" ybr="277.80" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="441.74" ytl="210.51" xbr="520.02" ybr="261.03" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="71" name="frame_000071.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="236.64" ytl="143.51" xbr="390.42" ybr="266.64" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="77.13" ytl="164.92" xbr="176.73" ybr="273.30" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="442.50" ytl="211.55" xbr="517.70" ybr="260.70" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="70" name="frame_000070.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="235.51" ytl="143.42" xbr="389.95" ybr="266.59" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="79.97" ytl="167.20" xbr="176.34" ybr="268.80" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="441.93" ytl="211.45" xbr="519.12" ybr="262.97" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="69" name="frame_000069.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="234.38" ytl="143.32" xbr="389.47" ybr="266.54" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="82.81" ytl="169.49" xbr="175.95" ybr="264.30" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="441.36" ytl="211.36" xbr="520.55" ybr="265.24" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="68" name="frame_000068.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="233.24" ytl="143.22" xbr="388.99" ybr="266.48" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="85.65" ytl="171.78" xbr="175.57" ybr="259.80" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="440.79" ytl="211.26" xbr="521.97" ybr="267.51" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="67" name="frame_000067.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="232.11" ytl="143.12" xbr="388.52" ybr="266.43" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="440.23" ytl="211.17" xbr="523.39" ybr="269.79" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="66" name="frame_000066.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="230.98" ytl="143.03" xbr="388.04" ybr="266.38" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="439.66" ytl="211.07" xbr="524.82" ybr="272.06" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="65" name="frame_000065.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="233.39" ytl="143.17" xbr="390.46" ybr="266.52" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="439.09" ytl="210.98" xbr="526.24" ybr="274.33" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="64" name="frame_000064.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="235.81" ytl="143.31" xbr="392.87" ybr="266.66" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="438.52" ytl="210.88" xbr="527.66" ybr="276.60" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="63" name="frame_000063.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="238.22" ytl="143.45" xbr="395.28" ybr="266.80" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="437.96" ytl="210.79" xbr="529.09" ybr="278.87" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="62" name="frame_000062.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="240.63" ytl="143.60" xbr="397.70" ybr="266.95" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="437.39" ytl="210.70" xbr="530.51" ybr="281.14" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="61" name="frame_000061.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="243.05" ytl="143.74" xbr="400.11" ybr="267.09" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="436.82" ytl="210.60" xbr="531.93" ybr="283.41" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="60" name="frame_000060.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="245.46" ytl="143.88" xbr="402.52" ybr="267.23" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="439.71" ytl="210.98" xbr="534.82" ybr="283.79" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="59" name="frame_000059.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="247.87" ytl="144.02" xbr="404.94" ybr="267.37" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="442.59" ytl="211.36" xbr="537.71" ybr="284.17" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="58" name="frame_000058.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="250.29" ytl="144.16" xbr="407.35" ybr="267.51" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="445.48" ytl="211.74" xbr="540.59" ybr="284.55" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="57" name="frame_000057.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="252.70" ytl="144.31" xbr="409.76" ybr="267.66" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="448.37" ytl="212.12" xbr="543.48" ybr="284.93" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="56" name="frame_000056.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="255.11" ytl="144.45" xbr="412.18" ybr="267.80" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="451.25" ytl="212.49" xbr="546.37" ybr="285.31" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="55" name="frame_000055.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="256.71" ytl="144.36" xbr="413.77" ybr="267.71" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="454.14" ytl="212.87" xbr="549.25" ybr="285.69" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="54" name="frame_000054.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="258.30" ytl="144.28" xbr="415.36" ybr="267.63" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="457.03" ytl="213.25" xbr="552.14" ybr="286.06" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="53" name="frame_000053.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="259.89" ytl="144.19" xbr="416.95" ybr="267.54" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="459.91" ytl="213.63" xbr="555.03" ybr="286.44" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="52" name="frame_000052.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="261.48" ytl="144.10" xbr="418.54" ybr="267.45" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="462.80" ytl="214.01" xbr="557.91" ybr="286.82" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="51" name="frame_000051.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="263.07" ytl="144.02" xbr="420.14" ybr="267.37" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="465.69" ytl="214.39" xbr="560.80" ybr="287.20" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="50" name="frame_000050.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="264.67" ytl="143.93" xbr="421.73" ybr="267.28" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="468.22" ytl="212.97" xbr="565.02" ybr="288.02" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="49" name="frame_000049.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="266.26" ytl="143.84" xbr="423.32" ybr="267.20" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="470.76" ytl="211.55" xbr="569.24" ybr="288.84" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="48" name="frame_000048.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="267.85" ytl="143.76" xbr="424.91" ybr="267.11" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="473.30" ytl="210.13" xbr="573.45" ybr="289.65" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="47" name="frame_000047.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="269.44" ytl="143.67" xbr="426.50" ybr="267.02" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="475.84" ytl="208.71" xbr="577.67" ybr="290.47" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="46" name="frame_000046.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="271.03" ytl="143.59" xbr="428.10" ybr="266.94" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="478.38" ytl="207.29" xbr="581.89" ybr="291.29" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="45" name="frame_000045.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="272.62" ytl="143.50" xbr="429.69" ybr="266.85" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="480.92" ytl="205.87" xbr="586.11" ybr="292.11" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="44" name="frame_000044.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="277.04" ytl="143.98" xbr="434.10" ybr="266.22" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="483.45" ytl="204.45" xbr="590.33" ybr="292.93" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="43" name="frame_000043.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="281.46" ytl="144.45" xbr="438.52" ybr="265.59" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="485.99" ytl="203.03" xbr="594.55" ybr="293.75" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="42" name="frame_000042.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="285.88" ytl="144.93" xbr="442.94" ybr="264.96" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="488.53" ytl="201.61" xbr="598.76" ybr="294.56" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="41" name="frame_000041.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="292.50" ytl="144.70" xbr="449.56" ybr="264.72" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="491.07" ytl="200.19" xbr="602.98" ybr="295.38" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="40" name="frame_000040.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="299.13" ytl="144.46" xbr="456.19" ybr="264.49" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="493.61" ytl="198.77" xbr="607.20" ybr="296.20" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="39" name="frame_000039.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="302.60" ytl="144.77" xbr="459.66" ybr="264.80" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="495.03" ytl="200.37" xbr="605.49" ybr="294.90" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="38" name="frame_000038.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="306.07" ytl="145.09" xbr="463.13" ybr="265.12" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="496.45" ytl="201.96" xbr="603.78" ybr="293.60" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="37" name="frame_000037.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="309.54" ytl="145.41" xbr="466.60" ybr="265.43" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="497.87" ytl="203.56" xbr="602.06" ybr="292.30" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="36" name="frame_000036.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="309.54" ytl="145.41" xbr="467.89" ybr="265.43" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="499.29" ytl="205.16" xbr="600.35" ybr="291.00" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="35" name="frame_000035.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="309.54" ytl="145.41" xbr="469.18" ybr="265.43" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="500.71" ytl="206.76" xbr="598.64" ybr="289.70" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="34" name="frame_000034.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="309.54" ytl="145.41" xbr="470.47" ybr="265.43" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="502.13" ytl="208.35" xbr="596.93" ybr="288.40" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="33" name="frame_000033.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="309.54" ytl="145.41" xbr="471.76" ybr="265.43" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="503.55" ytl="209.95" xbr="595.21" ybr="287.10" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="32" name="frame_000032.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="309.00" ytl="145.64" xbr="471.23" ybr="265.67" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="504.97" ytl="211.55" xbr="593.50" ybr="285.80" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="31" name="frame_000031.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="308.47" ytl="145.88" xbr="470.69" ybr="265.91" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="504.33" ytl="212.57" xbr="592.87" ybr="287.30" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="30" name="frame_000030.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="307.94" ytl="146.12" xbr="470.16" ybr="266.14" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="503.70" ytl="213.60" xbr="592.23" ybr="288.80" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="29" name="frame_000029.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="307.41" ytl="146.35" xbr="469.63" ybr="266.38" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="503.07" ytl="214.62" xbr="591.60" ybr="290.30" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="28" name="frame_000028.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="306.88" ytl="146.59" xbr="469.10" ybr="266.62" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="502.44" ytl="215.65" xbr="590.97" ybr="291.80" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="27" name="frame_000027.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="306.34" ytl="146.83" xbr="468.56" ybr="266.85" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="501.81" ytl="216.67" xbr="590.33" ybr="293.31" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="26" name="frame_000026.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="305.81" ytl="147.06" xbr="468.03" ybr="267.09" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="501.18" ytl="217.70" xbr="589.70" ybr="294.81" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="25" name="frame_000025.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="305.28" ytl="147.30" xbr="467.50" ybr="267.33" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="498.81" ytl="212.26" xbr="606.02" ybr="297.65" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="24" name="frame_000024.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="302.44" ytl="144.20" xbr="466.09" ybr="267.56" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="496.45" ytl="206.83" xbr="622.34" ybr="300.49" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="23" name="frame_000023.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="299.60" ytl="141.10" xbr="464.68" ybr="267.80" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="488.40" ytl="203.04" xbr="614.30" ybr="296.70" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="22" name="frame_000022.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="304.80" ytl="141.10" xbr="464.68" ybr="265.00" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="149.56" ytl="150.06" xbr="236.10" ybr="253.20" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="489.92" ytl="201.53" xbr="605.60" ybr="292.82" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="21" name="frame_000021.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="300.60" ytl="138.73" xbr="455.22" ybr="264.10" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="135.84" ytl="137.29" xbr="256.40" ybr="268.30" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="491.43" ytl="200.01" xbr="596.90" ybr="288.94" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="20" name="frame_000020.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="303.70" ytl="138.58" xbr="451.60" ybr="261.10" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="127.32" ytl="131.84" xbr="268.25" ybr="279.20" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="492.95" ytl="198.50" xbr="588.20" ybr="285.06" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="19" name="frame_000019.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="305.70" ytl="138.42" xbr="445.13" ybr="225.45" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="118.80" ytl="126.40" xbr="280.10" ybr="290.10" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="494.46" ytl="196.98" xbr="579.50" ybr="281.18" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="18" name="frame_000018.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="307.69" ytl="138.26" xbr="438.65" ybr="189.80" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="119.03" ytl="127.15" xbr="278.17" ybr="287.77" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="495.97" ytl="195.47" xbr="570.80" ybr="277.30" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="17" name="frame_000017.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="301.54" ytl="138.26" xbr="432.50" ybr="189.80" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="119.27" ytl="127.91" xbr="276.24" ybr="285.44" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="493.96" ytl="196.06" xbr="582.98" ybr="284.05" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="16" name="frame_000016.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="299.55" ytl="138.83" xbr="434.49" ybr="189.32" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="119.50" ytl="128.66" xbr="274.31" ybr="283.11" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="491.95" ytl="196.65" xbr="595.15" ybr="290.80" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="15" name="frame_000015.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="297.56" ytl="139.40" xbr="436.49" ybr="188.84" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="119.74" ytl="129.41" xbr="272.39" ybr="280.79" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="489.94" ytl="197.24" xbr="607.33" ybr="297.55" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="14" name="frame_000014.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="295.57" ytl="139.96" xbr="438.48" ybr="188.36" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="119.97" ytl="130.16" xbr="270.46" ybr="278.46" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="487.93" ytl="197.83" xbr="619.50" ybr="304.30" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="13" name="frame_000013.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="293.59" ytl="140.53" xbr="440.48" ybr="187.88" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="120.21" ytl="130.92" xbr="268.53" ybr="276.13" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="486.58" ytl="198.51" xbr="616.22" ybr="303.66" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="12" name="frame_000012.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="291.60" ytl="141.10" xbr="442.47" ybr="187.40" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="120.44" ytl="131.67" xbr="266.60" ybr="273.80" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="485.22" ytl="199.19" xbr="612.94" ybr="303.01" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="11" name="frame_000011.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="291.60" ytl="141.10" xbr="442.47" ybr="256.70" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="120.68" ytl="132.42" xbr="255.00" ybr="270.10" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="483.87" ytl="199.86" xbr="609.66" ybr="302.37" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="10" name="frame_000010.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="291.60" ytl="141.10" xbr="442.47" ybr="262.60" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="120.91" ytl="133.18" xbr="243.40" ybr="266.40" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="482.52" ytl="200.54" xbr="606.37" ybr="301.73" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="9" name="frame_000009.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="286.40" ytl="138.70" xbr="442.47" ybr="262.60" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="121.15" ytl="133.93" xbr="231.80" ybr="262.70" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="481.17" ytl="201.22" xbr="603.09" ybr="301.08" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="8" name="frame_000008.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="280.20" ytl="138.70" xbr="442.47" ybr="264.50" z_order="0">
+    </box>
+    <box label="head" occluded="0" source="manual" xtl="127.30" ytl="148.60" xbr="227.10" ybr="255.10" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="479.82" ytl="201.89" xbr="599.81" ybr="300.44" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="7" name="frame_000007.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="279.43" ytl="138.70" xbr="442.47" ybr="264.92" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="478.46" ytl="202.57" xbr="596.53" ybr="299.80" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="6" name="frame_000006.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="278.65" ytl="138.70" xbr="442.47" ybr="265.34" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="477.11" ytl="203.24" xbr="593.25" ybr="299.15" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="5" name="frame_000005.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="277.88" ytl="138.70" xbr="442.47" ybr="265.75" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="475.76" ytl="203.92" xbr="589.97" ybr="298.51" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="4" name="frame_000004.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="277.10" ytl="138.70" xbr="442.47" ybr="266.17" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="474.41" ytl="204.60" xbr="586.68" ybr="297.87" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+  <image id="3" name="frame_000003.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="276.33" ytl="138.70" xbr="442.47" ybr="266.59" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="473.06" ytl="205.27" xbr="583.40" ybr="297.22" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="2" name="frame_000002.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="275.55" ytl="138.70" xbr="442.47" ybr="267.01" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="471.70" ytl="205.95" xbr="580.12" ybr="296.58" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="1" name="frame_000001.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="274.78" ytl="138.70" xbr="442.47" ybr="267.43" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="470.35" ytl="206.62" xbr="576.84" ybr="295.94" z_order="0">
+    </box>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+  </image>
+  <image id="0" name="frame_000000.png" width="672" height="389">
+    <box label="arm" occluded="0" source="manual" xtl="274.00" ytl="138.70" xbr="442.47" ybr="267.85" z_order="0">
+    </box>
+    <box label="legs" occluded="0" source="manual" xtl="469.00" ytl="207.30" xbr="573.56" ybr="295.29" z_order="0">
+    </box>
+    <tag label="location" source="manual">
+      <attribute name="View_fetus">arms</attribute>
+    </tag>
+    <tag label="Orientation" source="manual">
+      <attribute name="Pose">hdvb</attribute>
+    </tag>
+  </image>
+</annotations>
